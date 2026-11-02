@@ -1,0 +1,36 @@
+{
+  "cohort_freshness_and_executable_truth": {
+    "fresh_programs": 800,
+    "dev": 289,
+    "test": 513,
+    "general_probe_reused": true
+  },
+  "token_limits": {
+    "max_prompt": 206,
+    "max_gold_answer": 55
+  },
+  "bounded_replay": {
+    "examples": 115,
+    "tokens": 15762
+  },
+  "status": "passed",
+  "frozen_sources_inputs_and_selection": true,
+  "rescored_reports": 26,
+  "matched_training_tokens": 98189,
+  "matched_sampled_roles": {
+    "old": 275,
+    "new": 261
+  },
+  "teacher_backbones_unchanged": true,
+  "both_bank_bypass_restores_original_responses": true,
+  "compact_exports_original_size_no_added_modules": true,
+  "development_only_atomic_and_composition_gates_recomputed": true,
+  "target_cache_peak_combined_bytes": 3842422,
+  "cache_ceiling_bytes": 16777216,
+  "temporary_target_caches_removed": true,
+  "placement_overlap": {
+    "random": [],
+    "fixed": []
+  },
+  "fresh_process_count": 26
+}

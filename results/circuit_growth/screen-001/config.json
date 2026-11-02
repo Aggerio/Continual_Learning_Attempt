@@ -1,0 +1,41 @@
+{
+  "seed": 42,
+  "probe_seed": 20261106,
+  "before_checkpoint": "results/capacity_memory/screen-001/capacity/rank-16/D/student/checkpoint",
+  "discovery_pairs_per_family": 24,
+  "validation_pairs_per_family": 32,
+  "families": [
+    "lookup",
+    "equality",
+    "copy",
+    "constant"
+  ],
+  "related_families": [
+    "lookup",
+    "equality"
+  ],
+  "control_families": [
+    "copy",
+    "constant"
+  ],
+  "minimum_primitive_accuracy": 0.75,
+  "minimum_normalized_channel_effect": 0.01,
+  "selected_sites": 2,
+  "channels_per_site": 64,
+  "random_seed": 1701,
+  "batch_size": 4,
+  "attribution_batch_size": 2,
+  "max_prompt_tokens": 512,
+  "max_new_tokens": 8,
+  "activation_cache_bytes": 67108864,
+  "bootstrap_samples": 2000,
+  "teacher_training_tokens": 98304,
+  "compression_training_tokens": 98304,
+  "teacher_learning_rate": 0.001,
+  "student_learning_rate": 0.0002,
+  "growth_fixed_sites": [
+    14,
+    21
+  ],
+  "notes": "Freeze two candidates from discovery. Both must pass held-out module and 64-channel specificity/causal tests before growth. No fallback to unvalidated sites, seed search or validation-driven ranking. Localization occurs at the last prompt position before a one-token binary JSON answer; this is a partial readout-path analysis, not a complete skill circuit."
+}

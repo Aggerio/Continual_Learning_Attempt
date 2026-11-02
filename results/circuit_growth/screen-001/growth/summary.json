@@ -1,0 +1,1840 @@
+{
+  "localization": {
+    "supported_primitives": true,
+    "sites": {
+      "19": {
+        "denoise_mlp_related": {
+          "mean": 0.06551986053818837,
+          "query_bootstrap_95": [
+            0.05056312322267331,
+            0.08046856659348123
+          ]
+        },
+        "denoise_mlp_specificity": {
+          "mean": 0.03874896979687037,
+          "query_bootstrap_95": [
+            0.023246140430273954,
+            0.055480511640780605
+          ]
+        },
+        "denoise_selected_related": {
+          "mean": 0.08495119417784736,
+          "query_bootstrap_95": [
+            0.07259850268019363,
+            0.09779065719339997
+          ]
+        },
+        "denoise_selected_specificity": {
+          "mean": 0.08639903722360032,
+          "query_bootstrap_95": [
+            0.07308099330111872,
+            0.09975105204648571
+          ]
+        },
+        "denoise_selected_minus_random": {
+          "mean": 0.08424041580292396,
+          "query_bootstrap_95": [
+            0.07159609513473697,
+            0.09729952794441488
+          ]
+        },
+        "denoise_selected_minus_shuffled": {
+          "mean": 0.04493098681268748,
+          "query_bootstrap_95": [
+            0.028850668750237674,
+            0.06114817595516797
+          ]
+        },
+        "denoise_zero_ablation_related": {
+          "mean": 0.05792499546078034,
+          "query_bootstrap_95": [
+            0.04964481687056832,
+            0.06675251977867447
+          ]
+        },
+        "noise_mlp_related": {
+          "mean": 0.06463423854438588,
+          "query_bootstrap_95": [
+            0.049599645601119846,
+            0.07963174971519038
+          ]
+        },
+        "noise_mlp_specificity": {
+          "mean": 0.04031161328020971,
+          "query_bootstrap_95": [
+            0.02500723270350136,
+            0.05572713186847977
+          ]
+        },
+        "noise_selected_related": {
+          "mean": 0.07923989644041285,
+          "query_bootstrap_95": [
+            0.06739916116930544,
+            0.0911250602803193
+          ]
+        },
+        "noise_selected_specificity": {
+          "mean": 0.07775799018418184,
+          "query_bootstrap_95": [
+            0.06463433070894098,
+            0.09056375613727141
+          ]
+        },
+        "noise_selected_minus_random": {
+          "mean": 0.08026288494875189,
+          "query_bootstrap_95": [
+            0.06835905610932969,
+            0.09234322025440633
+          ]
+        },
+        "noise_selected_minus_shuffled": {
+          "mean": 0.03964029470807873,
+          "query_bootstrap_95": [
+            0.020826319203479216,
+            0.0575676774897147
+          ]
+        },
+        "noise_zero_ablation_related": {
+          "mean": 0.05090340890455991,
+          "query_bootstrap_95": [
+            0.04362260241759941,
+            0.059020175656769425
+          ]
+        },
+        "validated": true
+      },
+      "18": {
+        "denoise_mlp_related": {
+          "mean": 0.03489818697562441,
+          "query_bootstrap_95": [
+            0.025265403441153467,
+            0.04540105414343998
+          ]
+        },
+        "denoise_mlp_specificity": {
+          "mean": 0.03207378506340319,
+          "query_bootstrap_95": [
+            0.022106534779595677,
+            0.04261603849590756
+          ]
+        },
+        "denoise_selected_related": {
+          "mean": 0.0583077953197062,
+          "query_bootstrap_95": [
+            0.04757436434738338,
+            0.06946348102064803
+          ]
+        },
+        "denoise_selected_specificity": {
+          "mean": 0.06833509369607782,
+          "query_bootstrap_95": [
+            0.05708623152168002,
+            0.07886651926673949
+          ]
+        },
+        "denoise_selected_minus_random": {
+          "mean": 0.05870030922233127,
+          "query_bootstrap_95": [
+            0.04811402191990055,
+            0.06953441706718877
+          ]
+        },
+        "denoise_selected_minus_shuffled": {
+          "mean": 0.028166672360384837,
+          "query_bootstrap_95": [
+            0.014566174751962535,
+            0.04286247480195016
+          ]
+        },
+        "denoise_zero_ablation_related": {
+          "mean": 0.038763904507504776,
+          "query_bootstrap_95": [
+            0.030538744409568608,
+            0.04758705370477401
+          ]
+        },
+        "noise_mlp_related": {
+          "mean": 0.03814842067367863,
+          "query_bootstrap_95": [
+            0.0274881872755941,
+            0.04915216322115157
+          ]
+        },
+        "noise_mlp_specificity": {
+          "mean": 0.035754071024712175,
+          "query_bootstrap_95": [
+            0.024026631312153768,
+            0.047415358865691815
+          ]
+        },
+        "noise_selected_related": {
+          "mean": 0.05828596817445941,
+          "query_bootstrap_95": [
+            0.04840748111018911,
+            0.06907252705423161
+          ]
+        },
+        "noise_selected_specificity": {
+          "mean": 0.06566511053097202,
+          "query_bootstrap_95": [
+            0.054846685445227195,
+            0.0765654946808354
+          ]
+        },
+        "noise_selected_minus_random": {
+          "mean": 0.05862919762148522,
+          "query_bootstrap_95": [
+            0.04863844232750125,
+            0.06967488475493155
+          ]
+        },
+        "noise_selected_minus_shuffled": {
+          "mean": 0.0337032915558666,
+          "query_bootstrap_95": [
+            0.01624776073731482,
+            0.05275263139628805
+          ]
+        },
+        "noise_zero_ablation_related": {
+          "mean": 0.037380527777713723,
+          "query_bootstrap_95": [
+            0.02691769257944543,
+            0.046559207810787484
+          ]
+        },
+        "validated": true
+      }
+    },
+    "eligible_related_families": [
+      "lookup"
+    ],
+    "proceed_to_growth": true,
+    "reason": "Both discovery-selected sites passed held-out causal specificity tests."
+  },
+  "attention_head_diagnostics": {
+    "selected-head:19:5": {
+      "denoise": {
+        "mean": 0.2582495079841465,
+        "query_bootstrap_95": [
+          0.23109656805172563,
+          0.2810700067784637
+        ],
+        "n": 32
+      },
+      "noise": {
+        "mean": 0.2486844677478075,
+        "query_bootstrap_95": [
+          0.22540537174791098,
+          0.27338089887052774
+        ],
+        "n": 32
+      }
+    },
+    "selected-head:17:1": {
+      "denoise": {
+        "mean": 0.5217434955993667,
+        "query_bootstrap_95": [
+          0.39763781533110887,
+          0.6370983575470746
+        ],
+        "n": 32
+      },
+      "noise": {
+        "mean": 0.532284484419506,
+        "query_bootstrap_95": [
+          0.4028571203816682,
+          0.6602203977527097
+        ],
+        "n": 32
+      }
+    },
+    "selected-head:22:9": {
+      "denoise": {
+        "mean": 0.4338533366099,
+        "query_bootstrap_95": [
+          0.4048543022945523,
+          0.4621353857219219
+        ],
+        "n": 32
+      },
+      "noise": {
+        "mean": 0.42335255071520805,
+        "query_bootstrap_95": [
+          0.4005885226652026,
+          0.44770212192088366
+        ],
+        "n": 32
+      }
+    },
+    "selected-head:20:14": {
+      "denoise": {
+        "mean": 0.10120027826633304,
+        "query_bootstrap_95": [
+          0.0772409537457861,
+          0.12600723264040425
+        ],
+        "n": 32
+      },
+      "noise": {
+        "mean": 0.09873563377186656,
+        "query_bootstrap_95": [
+          0.07930883666267619,
+          0.11918951466213912
+        ],
+        "n": 32
+      }
+    },
+    "random-head:16:4": {
+      "denoise": {
+        "mean": 0.03884614733397029,
+        "query_bootstrap_95": [
+          0.02463230339344591,
+          0.053401430952362716
+        ],
+        "n": 32
+      },
+      "noise": {
+        "mean": 0.05521780374692753,
+        "query_bootstrap_95": [
+          0.03579156889463775,
+          0.07759146750322543
+        ],
+        "n": 32
+      }
+    },
+    "random-head:6:8": {
+      "denoise": {
+        "mean": 0.0010521610238356516,
+        "query_bootstrap_95": [
+          -0.0011129681806778535,
+          0.0032281545863952488
+        ],
+        "n": 32
+      },
+      "noise": {
+        "mean": -0.001310778796323575,
+        "query_bootstrap_95": [
+          -0.003325041980133392,
+          0.0006033573590684682
+        ],
+        "n": 32
+      }
+    },
+    "random-head:5:0": {
+      "denoise": {
+        "mean": 0.0005952837527729571,
+        "query_bootstrap_95": [
+          -0.0013943944650236517,
+          0.0025996603653766215
+        ],
+        "n": 32
+      },
+      "noise": {
+        "mean": -0.0002542355650803074,
+        "query_bootstrap_95": [
+          -0.0027566725766519085,
+          0.002056437559076585
+        ],
+        "n": 32
+      }
+    },
+    "random-head:16:6": {
+      "denoise": {
+        "mean": 0.0030439975671470165,
+        "query_bootstrap_95": [
+          0.000884763547219336,
+          0.0051350063004065305
+        ],
+        "n": 32
+      },
+      "noise": {
+        "mean": -0.0010697513789637014,
+        "query_bootstrap_95": [
+          -0.003263655584305525,
+          0.0012825076701119542
+        ],
+        "n": 32
+      }
+    }
+  },
+  "placements": {
+    "related": [
+      19,
+      18
+    ],
+    "random": [
+      15,
+      12
+    ],
+    "fixed": [
+      14,
+      21
+    ]
+  },
+  "evaluation_resources": {
+    "before": {
+      "deployed_parameters": 596049920,
+      "evaluation_seconds": 67.39097058799962,
+      "peak_allocated_bytes": 1992580608,
+      "fresh_process_pid": 1563893
+    },
+    "teacher-related": {
+      "deployed_parameters": 596443136,
+      "evaluation_seconds": 53.902255941000476,
+      "peak_allocated_bytes": 1724992512,
+      "fresh_process_pid": 1576828
+    },
+    "teacher-random": {
+      "deployed_parameters": 596443136,
+      "evaluation_seconds": 60.85548949799704,
+      "peak_allocated_bytes": 1710268416,
+      "fresh_process_pid": 1590360
+    },
+    "teacher-fixed": {
+      "deployed_parameters": 596443136,
+      "evaluation_seconds": 58.88654426099674,
+      "peak_allocated_bytes": 1708231168,
+      "fresh_process_pid": 1605503
+    },
+    "compact-direct": {
+      "deployed_parameters": 596049920,
+      "evaluation_seconds": 51.56554527000117,
+      "peak_allocated_bytes": 1722793984,
+      "fresh_process_pid": 1571677
+    },
+    "compact-fixed": {
+      "deployed_parameters": 596049920,
+      "evaluation_seconds": 55.30324630699761,
+      "peak_allocated_bytes": 1708792320,
+      "fresh_process_pid": 1614385
+    },
+    "compact-random": {
+      "deployed_parameters": 596049920,
+      "evaluation_seconds": 56.50425737600017,
+      "peak_allocated_bytes": 1708793856,
+      "fresh_process_pid": 1599605
+    },
+    "compact-related": {
+      "deployed_parameters": 596049920,
+      "evaluation_seconds": 53.752903954999056,
+      "peak_allocated_bytes": 1723419648,
+      "fresh_process_pid": 1584866
+    }
+  },
+  "generation_cap_hits": {
+    "before": {
+      "BE": 3,
+      "BCE": 2
+    },
+    "teacher-related": {},
+    "teacher-random": {},
+    "teacher-fixed": {},
+    "compact-direct": {},
+    "compact-fixed": {},
+    "compact-random": {},
+    "compact-related": {}
+  },
+  "test": {
+    "before": {
+      "A": 1.0,
+      "B": 0.828125,
+      "BA": 0.875,
+      "BC": 0.75,
+      "BCE": 0.0,
+      "BD": 0.25,
+      "BDA": 0.0,
+      "BE": 0.0,
+      "C": 0.828125,
+      "D": 0.90625,
+      "E": 0.0625,
+      "general": 1.0,
+      "general_mc": 0.75
+    },
+    "teacher-related": {
+      "A": 1.0,
+      "B": 0.84375,
+      "BA": 0.84375,
+      "BC": 0.75,
+      "BCE": 0.0,
+      "BD": 0.28125,
+      "BDA": 0.0,
+      "BE": 0.03125,
+      "C": 0.84375,
+      "D": 0.90625,
+      "E": 0.921875,
+      "general": 1.0,
+      "general_mc": 0.75
+    },
+    "teacher-random": {
+      "A": 1.0,
+      "B": 0.84375,
+      "BA": 0.90625,
+      "BC": 0.75,
+      "BCE": 0.0,
+      "BD": 0.25,
+      "BDA": 0.0,
+      "BE": 0.03125,
+      "C": 0.84375,
+      "D": 0.90625,
+      "E": 1.0,
+      "general": 1.0,
+      "general_mc": 0.75
+    },
+    "teacher-fixed": {
+      "A": 1.0,
+      "B": 0.84375,
+      "BA": 0.875,
+      "BC": 0.71875,
+      "BCE": 0.0,
+      "BD": 0.21875,
+      "BDA": 0.0,
+      "BE": 0.0,
+      "C": 0.8125,
+      "D": 0.90625,
+      "E": 1.0,
+      "general": 1.0,
+      "general_mc": 0.75
+    },
+    "compact-direct": {
+      "A": 1.0,
+      "B": 0.875,
+      "BA": 0.90625,
+      "BC": 0.78125,
+      "BCE": 0.0625,
+      "BD": 0.25,
+      "BDA": 0.0,
+      "BE": 0.21875,
+      "C": 0.8125,
+      "D": 0.859375,
+      "E": 1.0,
+      "general": 1.0,
+      "general_mc": 0.75
+    },
+    "compact-fixed": {
+      "A": 1.0,
+      "B": 0.890625,
+      "BA": 0.84375,
+      "BC": 0.71875,
+      "BCE": 0.0,
+      "BD": 0.21875,
+      "BDA": 0.0,
+      "BE": 0.125,
+      "C": 0.8125,
+      "D": 0.75,
+      "E": 1.0,
+      "general": 1.0,
+      "general_mc": 0.75
+    },
+    "compact-random": {
+      "A": 1.0,
+      "B": 0.875,
+      "BA": 0.84375,
+      "BC": 0.75,
+      "BCE": 0.0,
+      "BD": 0.28125,
+      "BDA": 0.0,
+      "BE": 0.1875,
+      "C": 0.78125,
+      "D": 0.890625,
+      "E": 1.0,
+      "general": 1.0,
+      "general_mc": 0.75
+    },
+    "compact-related": {
+      "A": 1.0,
+      "B": 0.875,
+      "BA": 0.875,
+      "BC": 0.75,
+      "BCE": 0.0,
+      "BD": 0.1875,
+      "BDA": 0.0,
+      "BE": 0.125,
+      "C": 0.8125,
+      "D": 0.6875,
+      "E": 1.0,
+      "general": 1.0,
+      "general_mc": 0.75
+    }
+  },
+  "development_acceptance": {
+    "direct": {
+      "accepted": false,
+      "reasons": [
+        "C exceeds retention tolerance"
+      ],
+      "historical_reference_same_dev": {
+        "A": 1.0,
+        "B": 0.96875,
+        "C": 0.90625,
+        "BA": 0.96875,
+        "BC": 0.71875,
+        "D": 0.9375,
+        "BD": 0.21875,
+        "BDA": 0.0
+      },
+      "selection": "dev only"
+    },
+    "related": {
+      "accepted": false,
+      "reasons": [
+        "C exceeds retention tolerance",
+        "BA exceeds retention tolerance",
+        "D exceeds retention tolerance",
+        "BD exceeds retention tolerance"
+      ],
+      "historical_reference_same_dev": {
+        "A": 1.0,
+        "B": 0.96875,
+        "C": 0.90625,
+        "BA": 0.96875,
+        "BC": 0.71875,
+        "D": 0.9375,
+        "BD": 0.21875,
+        "BDA": 0.0
+      },
+      "selection": "dev only"
+    },
+    "random": {
+      "accepted": false,
+      "reasons": [
+        "C exceeds retention tolerance",
+        "BA exceeds retention tolerance",
+        "D exceeds retention tolerance"
+      ],
+      "historical_reference_same_dev": {
+        "A": 1.0,
+        "B": 0.96875,
+        "C": 0.90625,
+        "BA": 0.96875,
+        "BC": 0.71875,
+        "D": 0.9375,
+        "BD": 0.21875,
+        "BDA": 0.0
+      },
+      "selection": "dev only"
+    },
+    "fixed": {
+      "accepted": false,
+      "reasons": [
+        "C exceeds retention tolerance",
+        "BA exceeds retention tolerance",
+        "D exceeds retention tolerance"
+      ],
+      "historical_reference_same_dev": {
+        "A": 1.0,
+        "B": 0.96875,
+        "C": 0.90625,
+        "BA": 0.96875,
+        "BC": 0.71875,
+        "D": 0.9375,
+        "BD": 0.21875,
+        "BDA": 0.0
+      },
+      "selection": "dev only"
+    }
+  },
+  "teacher_acquisition": {
+    "related": {
+      "acquired": true,
+      "join": 1.0
+    },
+    "random": {
+      "acquired": true,
+      "join": 1.0
+    },
+    "fixed": {
+      "acquired": true,
+      "join": 1.0
+    }
+  },
+  "bank_bypass_development_E": {
+    "related": {
+      "first": 0.9375,
+      "second": 0.0,
+      "both": 0.125
+    },
+    "random": {
+      "first": 0.96875,
+      "second": 0.28125,
+      "both": 0.125
+    },
+    "fixed": {
+      "first": 0.125,
+      "second": 0.96875,
+      "both": 0.125
+    }
+  },
+  "training": {
+    "students/direct": {
+      "arm": "output",
+      "base_parameters": 596049920,
+      "trainable_parameters": 10092544,
+      "training_tokens": 98189,
+      "optimizer_updates": 68,
+      "training_seconds": 113.49862191300053,
+      "peak_cuda_allocated_bytes": 2552450560,
+      "peak_cuda_reserved_bytes": 5091885056,
+      "replay_examples": 115,
+      "replay_tokens": 15762,
+      "teacher_cache_bytes": 675823,
+      "hint_layers": [],
+      "hidden_weight": 0.0,
+      "sampled_roles": {
+        "old": 275,
+        "new": 261
+      },
+      "loss_last_8": 0.012084294625992698,
+      "kl_last_8": 0.009229951203451492,
+      "hint_last_8": 0.0,
+      "schedule_sha256": "e2170bc91c8e5b79dbac22fdcd09992b271f05b5ef49152e904e28e8bdd73eb5",
+      "torch_version": "2.10.0+cu128",
+      "cuda_version": "12.8",
+      "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+      "deployed_parameters": 596049920
+    },
+    "students/related": {
+      "arm": "output",
+      "base_parameters": 596049920,
+      "trainable_parameters": 10092544,
+      "training_tokens": 98189,
+      "optimizer_updates": 68,
+      "training_seconds": 112.02843399000267,
+      "peak_cuda_allocated_bytes": 2552450560,
+      "peak_cuda_reserved_bytes": 5091885056,
+      "replay_examples": 115,
+      "replay_tokens": 15762,
+      "teacher_cache_bytes": 3842422,
+      "hint_layers": [],
+      "hidden_weight": 0.0,
+      "sampled_roles": {
+        "old": 275,
+        "new": 261
+      },
+      "loss_last_8": 0.01064191917748758,
+      "kl_last_8": 0.014654008555226028,
+      "hint_last_8": 0.0,
+      "schedule_sha256": "e2170bc91c8e5b79dbac22fdcd09992b271f05b5ef49152e904e28e8bdd73eb5",
+      "torch_version": "2.10.0+cu128",
+      "cuda_version": "12.8",
+      "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+      "deployed_parameters": 596049920
+    },
+    "students/random": {
+      "arm": "output",
+      "base_parameters": 596049920,
+      "trainable_parameters": 10092544,
+      "training_tokens": 98189,
+      "optimizer_updates": 68,
+      "training_seconds": 125.78531787300017,
+      "peak_cuda_allocated_bytes": 2552450560,
+      "peak_cuda_reserved_bytes": 5091885056,
+      "replay_examples": 115,
+      "replay_tokens": 15762,
+      "teacher_cache_bytes": 3841200,
+      "hint_layers": [],
+      "hidden_weight": 0.0,
+      "sampled_roles": {
+        "old": 275,
+        "new": 261
+      },
+      "loss_last_8": 0.013095702683813215,
+      "kl_last_8": 0.011775883111113217,
+      "hint_last_8": 0.0,
+      "schedule_sha256": "e2170bc91c8e5b79dbac22fdcd09992b271f05b5ef49152e904e28e8bdd73eb5",
+      "torch_version": "2.10.0+cu128",
+      "cuda_version": "12.8",
+      "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+      "deployed_parameters": 596049920
+    },
+    "students/fixed": {
+      "arm": "output",
+      "base_parameters": 596049920,
+      "trainable_parameters": 10092544,
+      "training_tokens": 98189,
+      "optimizer_updates": 68,
+      "training_seconds": 129.59467342300195,
+      "peak_cuda_allocated_bytes": 2552450560,
+      "peak_cuda_reserved_bytes": 5091885056,
+      "replay_examples": 115,
+      "replay_tokens": 15762,
+      "teacher_cache_bytes": 3838122,
+      "hint_layers": [],
+      "hidden_weight": 0.0,
+      "sampled_roles": {
+        "old": 275,
+        "new": 261
+      },
+      "loss_last_8": 0.010904230926371383,
+      "kl_last_8": 0.007483928915462457,
+      "hint_last_8": 0.0,
+      "schedule_sha256": "e2170bc91c8e5b79dbac22fdcd09992b271f05b5ef49152e904e28e8bdd73eb5",
+      "torch_version": "2.10.0+cu128",
+      "cuda_version": "12.8",
+      "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+      "deployed_parameters": 596049920
+    },
+    "teachers/related": {
+      "arm": "teacher",
+      "base_parameters": 596049920,
+      "trainable_parameters": 393216,
+      "training_tokens": 98189,
+      "optimizer_updates": 68,
+      "training_seconds": 74.05194370100071,
+      "peak_cuda_allocated_bytes": 2397261312,
+      "peak_cuda_reserved_bytes": 4915724288,
+      "replay_examples": 115,
+      "replay_tokens": 15762,
+      "teacher_cache_bytes": 675823,
+      "hint_layers": [],
+      "hidden_weight": 0.0,
+      "sampled_roles": {
+        "old": 275,
+        "new": 261
+      },
+      "loss_last_8": 0.013565646802362608,
+      "kl_last_8": 0.0009643645607866347,
+      "hint_last_8": 0.0,
+      "schedule_sha256": "e2170bc91c8e5b79dbac22fdcd09992b271f05b5ef49152e904e28e8bdd73eb5",
+      "torch_version": "2.10.0+cu128",
+      "cuda_version": "12.8",
+      "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+      "backbone_before_sha256": "f5cfd5d4d149205ba95a597b112be65b191611305976430969f8ee59781d853e",
+      "backbone_after_sha256": "f5cfd5d4d149205ba95a597b112be65b191611305976430969f8ee59781d853e",
+      "expanded_parameters": 596443136
+    },
+    "teachers/random": {
+      "arm": "teacher",
+      "base_parameters": 596049920,
+      "trainable_parameters": 393216,
+      "training_tokens": 98189,
+      "optimizer_updates": 68,
+      "training_seconds": 79.21051106499363,
+      "peak_cuda_allocated_bytes": 2397261312,
+      "peak_cuda_reserved_bytes": 4915724288,
+      "replay_examples": 115,
+      "replay_tokens": 15762,
+      "teacher_cache_bytes": 675823,
+      "hint_layers": [],
+      "hidden_weight": 0.0,
+      "sampled_roles": {
+        "old": 275,
+        "new": 261
+      },
+      "loss_last_8": 0.013326582584795688,
+      "kl_last_8": 0.0007078727066982538,
+      "hint_last_8": 0.0,
+      "schedule_sha256": "e2170bc91c8e5b79dbac22fdcd09992b271f05b5ef49152e904e28e8bdd73eb5",
+      "torch_version": "2.10.0+cu128",
+      "cuda_version": "12.8",
+      "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+      "backbone_before_sha256": "f5cfd5d4d149205ba95a597b112be65b191611305976430969f8ee59781d853e",
+      "backbone_after_sha256": "f5cfd5d4d149205ba95a597b112be65b191611305976430969f8ee59781d853e",
+      "expanded_parameters": 596443136
+    },
+    "teachers/fixed": {
+      "arm": "teacher",
+      "base_parameters": 596049920,
+      "trainable_parameters": 393216,
+      "training_tokens": 98189,
+      "optimizer_updates": 68,
+      "training_seconds": 83.96022844200343,
+      "peak_cuda_allocated_bytes": 2397261312,
+      "peak_cuda_reserved_bytes": 4915724288,
+      "replay_examples": 115,
+      "replay_tokens": 15762,
+      "teacher_cache_bytes": 675823,
+      "hint_layers": [],
+      "hidden_weight": 0.0,
+      "sampled_roles": {
+        "old": 275,
+        "new": 261
+      },
+      "loss_last_8": 0.01385910450380834,
+      "kl_last_8": 0.0009982325373130152,
+      "hint_last_8": 0.0,
+      "schedule_sha256": "e2170bc91c8e5b79dbac22fdcd09992b271f05b5ef49152e904e28e8bdd73eb5",
+      "torch_version": "2.10.0+cu128",
+      "cuda_version": "12.8",
+      "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+      "backbone_before_sha256": "f5cfd5d4d149205ba95a597b112be65b191611305976430969f8ee59781d853e",
+      "backbone_after_sha256": "f5cfd5d4d149205ba95a597b112be65b191611305976430969f8ee59781d853e",
+      "expanded_parameters": 596443136
+    }
+  },
+  "paired_query_differences": {
+    "teacher-related minus teacher-random": {
+      "A": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "n": 64,
+        "gains": 0,
+        "losses": 0
+      },
+      "B": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          -0.046875,
+          0.046875
+        ],
+        "n": 64,
+        "gains": 1,
+        "losses": 1
+      },
+      "C": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          -0.046875,
+          0.046875
+        ],
+        "n": 64,
+        "gains": 1,
+        "losses": 1
+      },
+      "D": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "n": 64,
+        "gains": 0,
+        "losses": 0
+      },
+      "E": {
+        "mean": -0.078125,
+        "query_bootstrap_95": [
+          -0.140625,
+          -0.015625
+        ],
+        "n": 64,
+        "gains": 0,
+        "losses": 5
+      },
+      "BA": {
+        "mean": -0.0625,
+        "query_bootstrap_95": [
+          -0.15625,
+          0.0
+        ],
+        "n": 32,
+        "gains": 0,
+        "losses": 2
+      },
+      "BC": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "n": 32,
+        "gains": 0,
+        "losses": 0
+      },
+      "BD": {
+        "mean": 0.03125,
+        "query_bootstrap_95": [
+          0.0,
+          0.09375
+        ],
+        "n": 32,
+        "gains": 1,
+        "losses": 0
+      },
+      "BE": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          -0.09375,
+          0.09375
+        ],
+        "n": 32,
+        "gains": 1,
+        "losses": 1
+      },
+      "BDA": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "n": 32,
+        "gains": 0,
+        "losses": 0
+      },
+      "BCE": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "n": 32,
+        "gains": 0,
+        "losses": 0
+      }
+    },
+    "teacher-related minus teacher-fixed": {
+      "A": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "n": 64,
+        "gains": 0,
+        "losses": 0
+      },
+      "B": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          -0.046875,
+          0.046875
+        ],
+        "n": 64,
+        "gains": 1,
+        "losses": 1
+      },
+      "C": {
+        "mean": 0.03125,
+        "query_bootstrap_95": [
+          0.0,
+          0.078125
+        ],
+        "n": 64,
+        "gains": 2,
+        "losses": 0
+      },
+      "D": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "n": 64,
+        "gains": 0,
+        "losses": 0
+      },
+      "E": {
+        "mean": -0.078125,
+        "query_bootstrap_95": [
+          -0.140625,
+          -0.015625
+        ],
+        "n": 64,
+        "gains": 0,
+        "losses": 5
+      },
+      "BA": {
+        "mean": -0.03125,
+        "query_bootstrap_95": [
+          -0.15625,
+          0.0625
+        ],
+        "n": 32,
+        "gains": 1,
+        "losses": 2
+      },
+      "BC": {
+        "mean": 0.03125,
+        "query_bootstrap_95": [
+          0.0,
+          0.09375
+        ],
+        "n": 32,
+        "gains": 1,
+        "losses": 0
+      },
+      "BD": {
+        "mean": 0.0625,
+        "query_bootstrap_95": [
+          0.0,
+          0.15625
+        ],
+        "n": 32,
+        "gains": 2,
+        "losses": 0
+      },
+      "BE": {
+        "mean": 0.03125,
+        "query_bootstrap_95": [
+          0.0,
+          0.09375
+        ],
+        "n": 32,
+        "gains": 1,
+        "losses": 0
+      },
+      "BDA": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "n": 32,
+        "gains": 0,
+        "losses": 0
+      },
+      "BCE": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "n": 32,
+        "gains": 0,
+        "losses": 0
+      }
+    },
+    "compact-related minus compact-direct": {
+      "A": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "n": 64,
+        "gains": 0,
+        "losses": 0
+      },
+      "B": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          -0.078125,
+          0.078125
+        ],
+        "n": 64,
+        "gains": 3,
+        "losses": 3
+      },
+      "C": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          -0.125,
+          0.125
+        ],
+        "n": 64,
+        "gains": 7,
+        "losses": 7
+      },
+      "D": {
+        "mean": -0.171875,
+        "query_bootstrap_95": [
+          -0.28125,
+          -0.046875
+        ],
+        "n": 64,
+        "gains": 3,
+        "losses": 14
+      },
+      "E": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "n": 64,
+        "gains": 0,
+        "losses": 0
+      },
+      "BA": {
+        "mean": -0.03125,
+        "query_bootstrap_95": [
+          -0.09375,
+          0.0
+        ],
+        "n": 32,
+        "gains": 0,
+        "losses": 1
+      },
+      "BC": {
+        "mean": -0.03125,
+        "query_bootstrap_95": [
+          -0.125,
+          0.0625
+        ],
+        "n": 32,
+        "gains": 1,
+        "losses": 2
+      },
+      "BD": {
+        "mean": -0.0625,
+        "query_bootstrap_95": [
+          -0.15625,
+          0.0
+        ],
+        "n": 32,
+        "gains": 0,
+        "losses": 2
+      },
+      "BE": {
+        "mean": -0.09375,
+        "query_bootstrap_95": [
+          -0.25,
+          0.03125
+        ],
+        "n": 32,
+        "gains": 1,
+        "losses": 4
+      },
+      "BDA": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "n": 32,
+        "gains": 0,
+        "losses": 0
+      },
+      "BCE": {
+        "mean": -0.0625,
+        "query_bootstrap_95": [
+          -0.15625,
+          0.0
+        ],
+        "n": 32,
+        "gains": 0,
+        "losses": 2
+      }
+    },
+    "compact-related minus compact-random": {
+      "A": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "n": 64,
+        "gains": 0,
+        "losses": 0
+      },
+      "B": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          -0.0625,
+          0.0625
+        ],
+        "n": 64,
+        "gains": 2,
+        "losses": 2
+      },
+      "C": {
+        "mean": 0.03125,
+        "query_bootstrap_95": [
+          0.0,
+          0.078125
+        ],
+        "n": 64,
+        "gains": 2,
+        "losses": 0
+      },
+      "D": {
+        "mean": -0.203125,
+        "query_bootstrap_95": [
+          -0.328125,
+          -0.078125
+        ],
+        "n": 64,
+        "gains": 4,
+        "losses": 17
+      },
+      "E": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "n": 64,
+        "gains": 0,
+        "losses": 0
+      },
+      "BA": {
+        "mean": 0.03125,
+        "query_bootstrap_95": [
+          0.0,
+          0.09375
+        ],
+        "n": 32,
+        "gains": 1,
+        "losses": 0
+      },
+      "BC": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          -0.09375,
+          0.09375
+        ],
+        "n": 32,
+        "gains": 1,
+        "losses": 1
+      },
+      "BD": {
+        "mean": -0.09375,
+        "query_bootstrap_95": [
+          -0.21875,
+          0.0
+        ],
+        "n": 32,
+        "gains": 0,
+        "losses": 3
+      },
+      "BE": {
+        "mean": -0.0625,
+        "query_bootstrap_95": [
+          -0.25,
+          0.09375
+        ],
+        "n": 32,
+        "gains": 3,
+        "losses": 5
+      },
+      "BDA": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "n": 32,
+        "gains": 0,
+        "losses": 0
+      },
+      "BCE": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "n": 32,
+        "gains": 0,
+        "losses": 0
+      }
+    },
+    "compact-related minus compact-fixed": {
+      "A": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "n": 64,
+        "gains": 0,
+        "losses": 0
+      },
+      "B": {
+        "mean": -0.015625,
+        "query_bootstrap_95": [
+          -0.0625,
+          0.03125
+        ],
+        "n": 64,
+        "gains": 1,
+        "losses": 2
+      },
+      "C": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          -0.046875,
+          0.046875
+        ],
+        "n": 64,
+        "gains": 1,
+        "losses": 1
+      },
+      "D": {
+        "mean": -0.0625,
+        "query_bootstrap_95": [
+          -0.171875,
+          0.0625
+        ],
+        "n": 64,
+        "gains": 5,
+        "losses": 9
+      },
+      "E": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "n": 64,
+        "gains": 0,
+        "losses": 0
+      },
+      "BA": {
+        "mean": 0.03125,
+        "query_bootstrap_95": [
+          0.0,
+          0.09375
+        ],
+        "n": 32,
+        "gains": 1,
+        "losses": 0
+      },
+      "BC": {
+        "mean": 0.03125,
+        "query_bootstrap_95": [
+          0.0,
+          0.09375
+        ],
+        "n": 32,
+        "gains": 1,
+        "losses": 0
+      },
+      "BD": {
+        "mean": -0.03125,
+        "query_bootstrap_95": [
+          -0.125,
+          0.0625
+        ],
+        "n": 32,
+        "gains": 1,
+        "losses": 2
+      },
+      "BE": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          -0.125,
+          0.125
+        ],
+        "n": 32,
+        "gains": 2,
+        "losses": 2
+      },
+      "BDA": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "n": 32,
+        "gains": 0,
+        "losses": 0
+      },
+      "BCE": {
+        "mean": 0.0,
+        "query_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "n": 32,
+        "gains": 0,
+        "losses": 0
+      }
+    }
+  },
+  "grouping_error_diagnostics": {
+    "before": {
+      "counts": {
+        "wrong_totals_with_correct_group_keys": 6
+      },
+      "first_three_errors": [
+        {
+          "id": "test-D-15",
+          "prompt": "{\"rows\":[{\"team\":\"y\",\"score\":1},{\"team\":\"y\",\"score\":18},{\"team\":\"x\",\"score\":13},{\"team\":\"y\",\"score\":16}],\"ops\":[{\"op\":\"group\",\"key_field\":\"team\",\"value_field\":\"score\"}]}",
+          "gold": [
+            {
+              "team": "x",
+              "total": 13
+            },
+            {
+              "team": "y",
+              "total": 35
+            }
+          ],
+          "response": "[{\"team\":\"x\",\"total\":13},{\"team\":\"y\",\"total\":36}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        },
+        {
+          "id": "test-D-16",
+          "prompt": "{\"rows\":[{\"qty\":\"x\",\"zone\":16},{\"qty\":\"x\",\"zone\":17},{\"qty\":\"x\",\"zone\":4},{\"qty\":\"x\",\"zone\":2}],\"ops\":[{\"op\":\"group\",\"key_field\":\"qty\",\"value_field\":\"zone\"}]}",
+          "gold": [
+            {
+              "qty": "x",
+              "total": 39
+            }
+          ],
+          "response": "[{\"qty\":\"x\",\"total\":33}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        },
+        {
+          "id": "test-D-28",
+          "prompt": "{\"rows\":[{\"cost\":\"x\",\"level\":1},{\"cost\":\"y\",\"level\":6},{\"cost\":\"y\",\"level\":11},{\"cost\":\"y\",\"level\":3}],\"ops\":[{\"op\":\"group\",\"key_field\":\"cost\",\"value_field\":\"level\"}]}",
+          "gold": [
+            {
+              "cost": "x",
+              "total": 1
+            },
+            {
+              "cost": "y",
+              "total": 20
+            }
+          ],
+          "response": "[{\"cost\":\"x\",\"total\":1},{\"cost\":\"y\",\"total\":18}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        }
+      ]
+    },
+    "teacher-related": {
+      "counts": {
+        "wrong_totals_with_correct_group_keys": 6
+      },
+      "first_three_errors": [
+        {
+          "id": "test-D-15",
+          "prompt": "{\"rows\":[{\"team\":\"y\",\"score\":1},{\"team\":\"y\",\"score\":18},{\"team\":\"x\",\"score\":13},{\"team\":\"y\",\"score\":16}],\"ops\":[{\"op\":\"group\",\"key_field\":\"team\",\"value_field\":\"score\"}]}",
+          "gold": [
+            {
+              "team": "x",
+              "total": 13
+            },
+            {
+              "team": "y",
+              "total": 35
+            }
+          ],
+          "response": "[{\"team\":\"x\",\"total\":13},{\"team\":\"y\",\"total\":36}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        },
+        {
+          "id": "test-D-16",
+          "prompt": "{\"rows\":[{\"qty\":\"x\",\"zone\":16},{\"qty\":\"x\",\"zone\":17},{\"qty\":\"x\",\"zone\":4},{\"qty\":\"x\",\"zone\":2}],\"ops\":[{\"op\":\"group\",\"key_field\":\"qty\",\"value_field\":\"zone\"}]}",
+          "gold": [
+            {
+              "qty": "x",
+              "total": 39
+            }
+          ],
+          "response": "[{\"qty\":\"x\",\"total\":33}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        },
+        {
+          "id": "test-D-28",
+          "prompt": "{\"rows\":[{\"cost\":\"x\",\"level\":1},{\"cost\":\"y\",\"level\":6},{\"cost\":\"y\",\"level\":11},{\"cost\":\"y\",\"level\":3}],\"ops\":[{\"op\":\"group\",\"key_field\":\"cost\",\"value_field\":\"level\"}]}",
+          "gold": [
+            {
+              "cost": "x",
+              "total": 1
+            },
+            {
+              "cost": "y",
+              "total": 20
+            }
+          ],
+          "response": "[{\"cost\":\"x\",\"total\":1},{\"cost\":\"y\",\"total\":12}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        }
+      ]
+    },
+    "teacher-random": {
+      "counts": {
+        "wrong_totals_with_correct_group_keys": 6
+      },
+      "first_three_errors": [
+        {
+          "id": "test-D-15",
+          "prompt": "{\"rows\":[{\"team\":\"y\",\"score\":1},{\"team\":\"y\",\"score\":18},{\"team\":\"x\",\"score\":13},{\"team\":\"y\",\"score\":16}],\"ops\":[{\"op\":\"group\",\"key_field\":\"team\",\"value_field\":\"score\"}]}",
+          "gold": [
+            {
+              "team": "x",
+              "total": 13
+            },
+            {
+              "team": "y",
+              "total": 35
+            }
+          ],
+          "response": "[{\"team\":\"x\",\"total\":13},{\"team\":\"y\",\"total\":36}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        },
+        {
+          "id": "test-D-16",
+          "prompt": "{\"rows\":[{\"qty\":\"x\",\"zone\":16},{\"qty\":\"x\",\"zone\":17},{\"qty\":\"x\",\"zone\":4},{\"qty\":\"x\",\"zone\":2}],\"ops\":[{\"op\":\"group\",\"key_field\":\"qty\",\"value_field\":\"zone\"}]}",
+          "gold": [
+            {
+              "qty": "x",
+              "total": 39
+            }
+          ],
+          "response": "[{\"qty\":\"x\",\"total\":33}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        },
+        {
+          "id": "test-D-28",
+          "prompt": "{\"rows\":[{\"cost\":\"x\",\"level\":1},{\"cost\":\"y\",\"level\":6},{\"cost\":\"y\",\"level\":11},{\"cost\":\"y\",\"level\":3}],\"ops\":[{\"op\":\"group\",\"key_field\":\"cost\",\"value_field\":\"level\"}]}",
+          "gold": [
+            {
+              "cost": "x",
+              "total": 1
+            },
+            {
+              "cost": "y",
+              "total": 20
+            }
+          ],
+          "response": "[{\"cost\":\"x\",\"total\":1},{\"cost\":\"y\",\"total\":16}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        }
+      ]
+    },
+    "teacher-fixed": {
+      "counts": {
+        "wrong_totals_with_correct_group_keys": 6
+      },
+      "first_three_errors": [
+        {
+          "id": "test-D-15",
+          "prompt": "{\"rows\":[{\"team\":\"y\",\"score\":1},{\"team\":\"y\",\"score\":18},{\"team\":\"x\",\"score\":13},{\"team\":\"y\",\"score\":16}],\"ops\":[{\"op\":\"group\",\"key_field\":\"team\",\"value_field\":\"score\"}]}",
+          "gold": [
+            {
+              "team": "x",
+              "total": 13
+            },
+            {
+              "team": "y",
+              "total": 35
+            }
+          ],
+          "response": "[{\"team\":\"x\",\"total\":13},{\"team\":\"y\",\"total\":36}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        },
+        {
+          "id": "test-D-16",
+          "prompt": "{\"rows\":[{\"qty\":\"x\",\"zone\":16},{\"qty\":\"x\",\"zone\":17},{\"qty\":\"x\",\"zone\":4},{\"qty\":\"x\",\"zone\":2}],\"ops\":[{\"op\":\"group\",\"key_field\":\"qty\",\"value_field\":\"zone\"}]}",
+          "gold": [
+            {
+              "qty": "x",
+              "total": 39
+            }
+          ],
+          "response": "[{\"qty\":\"x\",\"total\":33}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        },
+        {
+          "id": "test-D-28",
+          "prompt": "{\"rows\":[{\"cost\":\"x\",\"level\":1},{\"cost\":\"y\",\"level\":6},{\"cost\":\"y\",\"level\":11},{\"cost\":\"y\",\"level\":3}],\"ops\":[{\"op\":\"group\",\"key_field\":\"cost\",\"value_field\":\"level\"}]}",
+          "gold": [
+            {
+              "cost": "x",
+              "total": 1
+            },
+            {
+              "cost": "y",
+              "total": 20
+            }
+          ],
+          "response": "[{\"cost\":\"x\",\"total\":1},{\"cost\":\"y\",\"total\":16}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        }
+      ]
+    },
+    "compact-direct": {
+      "counts": {
+        "wrong_totals_with_correct_group_keys": 9
+      },
+      "first_three_errors": [
+        {
+          "id": "test-D-10",
+          "prompt": "{\"rows\":[{\"qty\":\"y\",\"zone\":11},{\"qty\":\"y\",\"zone\":6},{\"qty\":\"y\",\"zone\":2}],\"ops\":[{\"op\":\"group\",\"key_field\":\"qty\",\"value_field\":\"zone\"}]}",
+          "gold": [
+            {
+              "qty": "y",
+              "total": 19
+            }
+          ],
+          "response": "[{\"qty\":\"y\",\"total\":9}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        },
+        {
+          "id": "test-D-15",
+          "prompt": "{\"rows\":[{\"team\":\"y\",\"score\":1},{\"team\":\"y\",\"score\":18},{\"team\":\"x\",\"score\":13},{\"team\":\"y\",\"score\":16}],\"ops\":[{\"op\":\"group\",\"key_field\":\"team\",\"value_field\":\"score\"}]}",
+          "gold": [
+            {
+              "team": "x",
+              "total": 13
+            },
+            {
+              "team": "y",
+              "total": 35
+            }
+          ],
+          "response": "[{\"team\":\"x\",\"total\":13},{\"team\":\"y\",\"total\":36}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        },
+        {
+          "id": "test-D-16",
+          "prompt": "{\"rows\":[{\"qty\":\"x\",\"zone\":16},{\"qty\":\"x\",\"zone\":17},{\"qty\":\"x\",\"zone\":4},{\"qty\":\"x\",\"zone\":2}],\"ops\":[{\"op\":\"group\",\"key_field\":\"qty\",\"value_field\":\"zone\"}]}",
+          "gold": [
+            {
+              "qty": "x",
+              "total": 39
+            }
+          ],
+          "response": "[{\"qty\":\"x\",\"total\":23}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        }
+      ]
+    },
+    "compact-fixed": {
+      "counts": {
+        "wrong_totals_with_correct_group_keys": 16
+      },
+      "first_three_errors": [
+        {
+          "id": "test-D-6",
+          "prompt": "{\"rows\":[{\"level\":\"x\",\"zone\":5},{\"level\":\"x\",\"zone\":10},{\"level\":\"x\",\"zone\":13}],\"ops\":[{\"op\":\"group\",\"key_field\":\"level\",\"value_field\":\"zone\"}]}",
+          "gold": [
+            {
+              "level": "x",
+              "total": 28
+            }
+          ],
+          "response": "[{\"level\":\"x\",\"total\":38}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        },
+        {
+          "id": "test-D-10",
+          "prompt": "{\"rows\":[{\"qty\":\"y\",\"zone\":11},{\"qty\":\"y\",\"zone\":6},{\"qty\":\"y\",\"zone\":2}],\"ops\":[{\"op\":\"group\",\"key_field\":\"qty\",\"value_field\":\"zone\"}]}",
+          "gold": [
+            {
+              "qty": "y",
+              "total": 19
+            }
+          ],
+          "response": "[{\"qty\":\"y\",\"total\":20}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        },
+        {
+          "id": "test-D-13",
+          "prompt": "{\"rows\":[{\"qty\":\"y\",\"team\":11},{\"qty\":\"y\",\"team\":8}],\"ops\":[{\"op\":\"group\",\"key_field\":\"qty\",\"value_field\":\"team\"}]}",
+          "gold": [
+            {
+              "qty": "y",
+              "total": 19
+            }
+          ],
+          "response": "[{\"qty\":\"y\",\"total\":29}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        }
+      ]
+    },
+    "compact-random": {
+      "counts": {
+        "wrong_totals_with_correct_group_keys": 7
+      },
+      "first_three_errors": [
+        {
+          "id": "test-D-15",
+          "prompt": "{\"rows\":[{\"team\":\"y\",\"score\":1},{\"team\":\"y\",\"score\":18},{\"team\":\"x\",\"score\":13},{\"team\":\"y\",\"score\":16}],\"ops\":[{\"op\":\"group\",\"key_field\":\"team\",\"value_field\":\"score\"}]}",
+          "gold": [
+            {
+              "team": "x",
+              "total": 13
+            },
+            {
+              "team": "y",
+              "total": 35
+            }
+          ],
+          "response": "[{\"team\":\"x\",\"total\":13},{\"team\":\"y\",\"total\":36}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        },
+        {
+          "id": "test-D-16",
+          "prompt": "{\"rows\":[{\"qty\":\"x\",\"zone\":16},{\"qty\":\"x\",\"zone\":17},{\"qty\":\"x\",\"zone\":4},{\"qty\":\"x\",\"zone\":2}],\"ops\":[{\"op\":\"group\",\"key_field\":\"qty\",\"value_field\":\"zone\"}]}",
+          "gold": [
+            {
+              "qty": "x",
+              "total": 39
+            }
+          ],
+          "response": "[{\"qty\":\"x\",\"total\":33}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        },
+        {
+          "id": "test-D-28",
+          "prompt": "{\"rows\":[{\"cost\":\"x\",\"level\":1},{\"cost\":\"y\",\"level\":6},{\"cost\":\"y\",\"level\":11},{\"cost\":\"y\",\"level\":3}],\"ops\":[{\"op\":\"group\",\"key_field\":\"cost\",\"value_field\":\"level\"}]}",
+          "gold": [
+            {
+              "cost": "x",
+              "total": 1
+            },
+            {
+              "cost": "y",
+              "total": 20
+            }
+          ],
+          "response": "[{\"cost\":\"x\",\"total\":1},{\"cost\":\"y\",\"total\":12}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        }
+      ]
+    },
+    "compact-related": {
+      "counts": {
+        "wrong_totals_with_correct_group_keys": 20
+      },
+      "first_three_errors": [
+        {
+          "id": "test-D-0",
+          "prompt": "{\"rows\":[{\"qty\":\"y\",\"score\":19},{\"qty\":\"x\",\"score\":6},{\"qty\":\"y\",\"score\":2}],\"ops\":[{\"op\":\"group\",\"key_field\":\"qty\",\"value_field\":\"score\"}]}",
+          "gold": [
+            {
+              "qty": "x",
+              "total": 6
+            },
+            {
+              "qty": "y",
+              "total": 21
+            }
+          ],
+          "response": "[{\"qty\":\"x\",\"total\":6},{\"qty\":\"y\",\"total\":23}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        },
+        {
+          "id": "test-D-6",
+          "prompt": "{\"rows\":[{\"level\":\"x\",\"zone\":5},{\"level\":\"x\",\"zone\":10},{\"level\":\"x\",\"zone\":13}],\"ops\":[{\"op\":\"group\",\"key_field\":\"level\",\"value_field\":\"zone\"}]}",
+          "gold": [
+            {
+              "level": "x",
+              "total": 28
+            }
+          ],
+          "response": "[{\"level\":\"x\",\"total\":38}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        },
+        {
+          "id": "test-D-7",
+          "prompt": "{\"rows\":[{\"zone\":\"x\",\"level\":10},{\"zone\":\"x\",\"level\":7},{\"zone\":\"y\",\"level\":2},{\"zone\":\"y\",\"level\":13}],\"ops\":[{\"op\":\"group\",\"key_field\":\"zone\",\"value_field\":\"level\"}]}",
+          "gold": [
+            {
+              "zone": "x",
+              "total": 17
+            },
+            {
+              "zone": "y",
+              "total": 15
+            }
+          ],
+          "response": "[{\"zone\":\"x\",\"total\":27},{\"zone\":\"y\",\"total\":25}]",
+          "category": "wrong_totals_with_correct_group_keys"
+        }
+      ]
+    }
+  },
+  "resources": {
+    "training_tokens_total": 687323,
+    "training_seconds_total": 718.1297304070031,
+    "peak_training_cuda_bytes": 2552450560,
+    "worker_wall_seconds": 1944.1264374760067,
+    "training_runs": 7,
+    "localization": {
+      "seconds": 165.23066085300525,
+      "peak_cuda_allocated_bytes": 1448158208,
+      "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+      "torch_version": "2.10.0+cu128",
+      "cuda_version": "12.8",
+      "parameters": 596049920
+    }
+  },
+  "interpretation": "Both selected MLP interfaces passed causal lookup validation, but guided growth did not outperform both placement controls. Teacher join test accuracy: related 92.2%, random 100.0%, fixed 100.0%. The guided compact learner returned to the original parameter count, with join 100.0% versus direct 100.0%. Its grouping test accuracy was 68.8% versus before 90.6% and direct 85.9%; its development retention decision was rejected. Causal contribution of an existing primitive did not by itself establish a superior place to assimilate a new skill. No repeated continual-learning claim follows."
+}

@@ -1,0 +1,44 @@
+{
+  "unit_tests": {
+    "count": 23,
+    "status": "passed",
+    "sha256": "94d48c7ce793482e0e3624d7c922e385ac7bd662b2bc826590d107732f45c0ef"
+  },
+  "localization_cuda_smoke": {
+    "self_patch_max_error": 0.0,
+    "output_copy_max_error": 0.0,
+    "finite_channel_and_head_attributions": true,
+    "cache_bytes": 2768896,
+    "gpu_peak_bytes": 1402216448,
+    "baseline_rows": 8
+  },
+  "native_bank_cuda_training_smoke": {
+    "arm": "teacher",
+    "base_parameters": 596049920,
+    "trainable_parameters": 393216,
+    "training_tokens": 1944,
+    "optimizer_updates": 2,
+    "training_seconds": 1.8796333380014403,
+    "peak_cuda_allocated_bytes": 2375776256,
+    "peak_cuda_reserved_bytes": 3992977408,
+    "replay_examples": 4,
+    "replay_tokens": 591,
+    "teacher_cache_bytes": 913651,
+    "hint_layers": [],
+    "hidden_weight": 0.0,
+    "sampled_roles": {
+      "old": 6,
+      "new": 4
+    },
+    "loss_last_8": 0.2698813129463815,
+    "kl_last_8": 8.219631417887286e-05,
+    "hint_last_8": 0.0,
+    "schedule_sha256": "d3ef801c5d230e620e87f6c0a137a495fdd019b756d9a1b50eaf6ea51ef8c2ac",
+    "torch_version": "2.10.0+cu128",
+    "cuda_version": "12.8",
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "backbone_before_sha256": "f5cfd5d4d149205ba95a597b112be65b191611305976430969f8ee59781d853e",
+    "backbone_after_sha256": "f5cfd5d4d149205ba95a597b112be65b191611305976430969f8ee59781d853e",
+    "expanded_parameters": 596443136
+  }
+}

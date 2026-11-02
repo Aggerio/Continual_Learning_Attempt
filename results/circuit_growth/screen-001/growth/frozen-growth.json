@@ -1,0 +1,32 @@
+{
+  "sources": {
+    "scripts/circuit_growth_run.py": "74808230016155048c2ba31c86fa6b489fb38955ffe0657785902f0f2bc96418",
+    "continual/circuit_growth.py": "f795809f74e78b0e51a2fbbbeb9cdfef6dc309ade470cae074842005975c5979",
+    "continual/nonlinear_layers.py": "6ef6166692147a58047b36d52e0196f89d473c193bb1be3450146dc0f64307e0",
+    "continual/worker.py": "b4c821019aa012bc7f027b3c538c559174d5be2eca464e86cafc39feee566a7a",
+    "continual/tasks.py": "7b58c16eb7cdddd96ed94bfc32f888180e38c8aac0b641f3d4a516173036276a",
+    "continual/assimilation.py": "952c488f67ea1bb99f3635d427b317ebd4b308f817cc9e04a695b574a4a1bb2c",
+    "tests/test_circuit_growth.py": "365ba1338575bb316d8c2c854132d50a57d3c73e2282e74a983977920dec4e7f"
+  },
+  "inputs": {
+    "config.json": "ab1c2d9386fd96374a30e8175097685cad1a0445a0a9bda96d485551f378b1a5",
+    "train-data.json": "3508a35a2327d2641943d1d15f7da563414b05894ce9bed0f29dbbe2e81038da",
+    "schedule.json": "e2170bc91c8e5b79dbac22fdcd09992b271f05b5ef49152e904e28e8bdd73eb5",
+    "configs/direct.json": "1cecdd84da4c3dd34060ecd5b20fc54653fbda97d88c6fb7ce076f5b1adf82f5",
+    "configs/fixed.json": "ab1c2d9386fd96374a30e8175097685cad1a0445a0a9bda96d485551f378b1a5",
+    "configs/random.json": "b3caed0188a15a548853c1ed3322f8468207be2dd1a31694b6fcd0c2c5575f5e",
+    "configs/related.json": "1ce6213d8095ad7025b42bd7e54a4880ca8bf61b9535c7d05399929ccbfda999",
+    "data/ablation.json": "3d7ca7461c009af33a0f8e26c7841261372ec461ac4ec15f4f82197b67b25892",
+    "data/dev.json": "cb515a461bb0fa00e9eac49dc7c7e9b9b60ae3cd57bc8a3027c149e017f2757b",
+    "data/test.json": "0ed7f3806c4ea5d3bd7185498ea90c5c3c9d2226daea3114796d819e2d4bfc64"
+  },
+  "localization": {
+    "selection.json": "3d6b9c949c98a4e68bc601120ec8b7f6be7c518d6b69c1a6055a036920e0e792",
+    "localization-decision.json": "a4dd499e7554aef64ed004d66fd36e34bfe04af087b2956d893bb9708179e02c"
+  },
+  "placement_overlap": {
+    "random": [],
+    "fixed": []
+  },
+  "scope": "One D-to-E boundary. Fixed criteria, one seed, no validation-based reranking. No candidate auto-deployed."
+}

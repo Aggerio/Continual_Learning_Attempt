@@ -1,0 +1,10 @@
+{
+  "report_source_sha256": "fa9a4fb4e97044519e60db64f4361aa0111c80e295eb110c1d1da61fb258f8e8",
+  "artifacts": {
+    "REPORT.md": "5a5c9f39b45ee79c08fdd1d9c09b0ff8eceed29126a6372e87de6eb361277721",
+    "AUDIT.json": "c6f078c50da6a2315ffc99219fee3ff863bac7d4ed7147ad7f6e0d1044a9f975",
+    "summary.json": "adbde02f79bc2a4aa3e4316e5b14e9616b7fd5371a21f32ff20e5399ca613050",
+    "comparison.png": "47b8a8495c6797c1a94dde3a1046c367655d98bc50012261bcb89e36cc72fa89",
+    "localization.png": "7cc80cefc4595f362fd8a6350718d231b8d50ea6e31ac39c41c536c581178370"
+  }
+}

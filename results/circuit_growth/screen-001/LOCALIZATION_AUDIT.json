@@ -1,0 +1,28 @@
+{
+  "discovery_strict_counts": {
+    "lookup": 48,
+    "equality": 29,
+    "copy": 47,
+    "constant": 48
+  },
+  "validation_strict_counts": {
+    "lookup": 64,
+    "equality": 41,
+    "copy": 64,
+    "constant": 64
+  },
+  "status": "passed",
+  "frozen_sources_inputs_backbone": true,
+  "independent_probe_truth_and_output_scoring": true,
+  "discovery_only_selection_reproduced": true,
+  "held_out_gates_recomputed": true,
+  "validated_sites": [
+    19,
+    18
+  ],
+  "eligible_related_primitives": [
+    "lookup"
+  ],
+  "pair_count": 224,
+  "scope": "Only last-prompt-position interventions and binary-answer lookup probes. No full skill circuit or SAE feature map."
+}
