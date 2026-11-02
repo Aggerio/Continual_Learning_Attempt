@@ -30,6 +30,8 @@ __pycache__/
 /results/**/generation/
 /results/**/variants/
 /results/**/seed-*/
+# Run directories produce local bulk outputs; explicitly add only compact reports.
+/results/
 /results/continual_quick/**/checkpoint/
 /results/continual_quick/**/half-checkpoint/
 /results/continual_quick/**/half_adapter/
