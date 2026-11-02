@@ -1,0 +1,22 @@
+{
+  "validated_grouping_update_contribution": true,
+  "numeric_gain": {
+    "mean": 0.06647562882517377,
+    "query_bootstrap_95": [
+      0.014580027761439851,
+      0.14790797086970997
+    ],
+    "n": 32
+  },
+  "specificity_vs_numeric_copy": {
+    "mean": 0.06647569265101083,
+    "query_bootstrap_95": [
+      0.015313363067122054,
+      0.14981365659352264
+    ]
+  },
+  "autonomous_D_before": 0.90625,
+  "autonomous_D_after": 0.71875,
+  "autonomous_D_guided_rollback": 0.8125,
+  "selection": "Discovery only; no validation reranking. Protection arms run regardless, with validation failures explicitly labeled."
+}

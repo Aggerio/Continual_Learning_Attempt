@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "checks": {
+    "before": {
+      "matched": true,
+      "examples": 8
+    },
+    "after": {
+      "matched": true,
+      "examples": 8
+    }
+  },
+  "ids": [
+    "validation-fresh-dev-D-0",
+    "validation-fresh-dev-D-1",
+    "validation-fresh-dev-D-2",
+    "validation-fresh-dev-D-3",
+    "validation-fresh-dev-E-0",
+    "validation-fresh-dev-E-1",
+    "validation-fresh-dev-E-2",
+    "validation-fresh-dev-E-3"
+  ],
+  "source_sha256": "7e7aa70c77183fbea76d2ecd7a618f84b96fefdf95d666781d1ff36697ce1ed5",
+  "causal_decoder_source_sha256": "98b1540113f01ffa37eb2550204e7f5a159c01bf0e3ea191f02681934bf47e75",
+  "scope": "Read-only supplement after fixed experiment; no training or selection feedback."
+}

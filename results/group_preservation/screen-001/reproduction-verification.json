@@ -1,0 +1,10 @@
+{
+  "initialization_matches": true,
+  "initial_adapter_sha256": "d888ccbf4a1479ab26d5d82906aa156d3da193875c4829608670a851a7caf6b9",
+  "original_trainer_checkpoint_matches_fresh_unconstrained": false,
+  "deterministic_algorithms_enabled": false,
+  "source_sha256": "7e7aa70c77183fbea76d2ecd7a618f84b96fefdf95d666781d1ff36697ce1ed5",
+  "scope": "One fixed-input original-entrypoint repeat to quantify reproducibility; no checkpoint selection or method tuning.",
+  "verification_target_caches_removed": true,
+  "verification_wall_seconds": 299.89329051499953
+}

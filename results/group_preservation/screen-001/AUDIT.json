@@ -1,0 +1,33 @@
+{
+  "status": "passed_with_reproducibility_limit",
+  "fresh_programs": 976,
+  "frozen_sources_inputs_weights_and_selection": true,
+  "validated_grouping_update_contribution": true,
+  "independent_executable_truth_and_saved_output_scoring": true,
+  "rescored_evaluation_reports": 15,
+  "rescored_causal_generation_reports": 10,
+  "fresh_evaluation_processes": 15,
+  "unconstrained_reproduction": {
+    "dev_responses_identical": false,
+    "test_responses_identical": false,
+    "checkpoint_bytes_identical": false,
+    "original_entrypoint_initialization_matches": true,
+    "original_trainer_checkpoint_matches_fresh_unconstrained": false,
+    "deterministic_algorithms_enabled": false
+  },
+  "protected_module_weights_exactly_preserved": true,
+  "matched_protected_arm_trainable_parameters": 9535488,
+  "compact_parameters": 596049920,
+  "matched_input_training_tokens": 98189,
+  "replay_examples": 115,
+  "replay_tokens": 15762,
+  "combined_target_cache_bytes": 3835934,
+  "peak_cache_storage_including_verification_copy_bytes": 7671868,
+  "target_caches_removed": true,
+  "peak_activation_cache_bytes": 87785472,
+  "activation_cache_ceiling_bytes": 268435456,
+  "max_prompt_tokens": 206,
+  "max_gold_answer_tokens": 56,
+  "development_only_gates_recomputed": true,
+  "real_model_causal_decoder_matches_model_generate": true
+}

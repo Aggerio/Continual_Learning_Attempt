@@ -1,0 +1,10 @@
+{
+  "source_sha256": "27df2a813c27f44bbc37b80eb77269bca7047fcf12718d61f706841b12848acc",
+  "artifacts": {
+    "REPORT.md": "898ffae57394d36cedfb41deffaa2b59f883857641b764f2d6feddf9f5a20df1",
+    "summary.json": "4726f59e0f54d9d42de565a6c1fb0f4800320db64a5a4eee6e59f968dbf9c35e",
+    "AUDIT.json": "bf8fe19137de3b17519624cb530f27f97f8f8ef4bab144bcfbf1a496f79fd4bb",
+    "comparison.png": "87572dcd09abd7855d79519ca91c3d21d43a1941d7954c51a2d02ee972d59eb5",
+    "causal-trace.png": "d5188e87858ee4c52048f1447b383f307786cffe4877aec1db07f8e2a0284d21"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "seconds": 438.2058131859958,
+  "peak_cuda_allocated_bytes": 2618056704,
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "torch_version": "2.10.0+cu128",
+  "cuda_version": "12.8",
+  "before_parameters": 596049920,
+  "after_parameters": 596049920
+}
