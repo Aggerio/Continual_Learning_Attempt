@@ -1,0 +1,533 @@
+{
+  "status": "completed",
+  "methods": {
+    "replay": {
+      "stages": [
+        {
+          "stage": "A",
+          "decision": {
+            "accepted": true,
+            "reasons": [],
+            "old_source": "/home/aggerio/.cache/huggingface/hub/models--Qwen--Qwen3-0.6B/snapshots/c1899de289a04d12100db370d81485cdf75e47ca",
+            "proposal_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/replay/A/checkpoint",
+            "new_skill_accuracy": 1.0,
+            "best_prior_scores": {},
+            "general_mc": 0.71875
+          },
+          "proposed": {
+            "A": 1.0,
+            "B": 0.0,
+            "C": 0.0,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_model": {
+            "A": 1.0,
+            "B": 0.0,
+            "C": 0.0,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_general_mc": 0.71875
+        },
+        {
+          "stage": "B",
+          "decision": {
+            "accepted": true,
+            "reasons": [],
+            "old_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/replay/A/checkpoint",
+            "proposal_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/replay/B/checkpoint",
+            "new_skill_accuracy": 0.8125,
+            "best_prior_scores": {
+              "A": 1.0
+            },
+            "general_mc": 0.6875
+          },
+          "proposed": {
+            "A": 1.0,
+            "B": 0.8125,
+            "C": 0.21875,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_model": {
+            "A": 1.0,
+            "B": 0.8125,
+            "C": 0.21875,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_general_mc": 0.6875
+        },
+        {
+          "stage": "C",
+          "decision": {
+            "accepted": true,
+            "reasons": [],
+            "old_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/replay/B/checkpoint",
+            "proposal_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/replay/C/checkpoint",
+            "new_skill_accuracy": 0.90625,
+            "best_prior_scores": {
+              "A": 1.0,
+              "B": 0.8125
+            },
+            "general_mc": 0.71875
+          },
+          "proposed": {
+            "A": 1.0,
+            "B": 0.84375,
+            "C": 0.90625,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_model": {
+            "A": 1.0,
+            "B": 0.84375,
+            "C": 0.90625,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_general_mc": 0.71875
+        },
+        {
+          "stage": "D",
+          "decision": {
+            "accepted": false,
+            "reasons": [
+              "new skill below acquisition threshold",
+              "C exceeds retention tolerance",
+              "general probe exceeds tolerance"
+            ],
+            "old_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/replay/C/checkpoint",
+            "proposal_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/replay/D/checkpoint",
+            "new_skill_accuracy": 0.65625,
+            "best_prior_scores": {
+              "A": 1.0,
+              "B": 0.84375,
+              "C": 0.90625
+            },
+            "general_mc": 0.625
+          },
+          "proposed": {
+            "A": 1.0,
+            "B": 0.875,
+            "BDA": 0.0,
+            "C": 0.84375,
+            "D": 0.65625,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_model": {
+            "A": 1.0,
+            "B": 0.84375,
+            "C": 0.90625,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_general_mc": 0.71875
+        },
+        {
+          "stage": "E",
+          "decision": {
+            "accepted": false,
+            "reasons": [
+              "C exceeds retention tolerance"
+            ],
+            "old_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/replay/C/checkpoint",
+            "proposal_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/replay/E/checkpoint",
+            "new_skill_accuracy": 1.0,
+            "best_prior_scores": {
+              "A": 1.0,
+              "B": 0.84375,
+              "C": 0.90625
+            },
+            "general_mc": 0.71875
+          },
+          "proposed": {
+            "A": 1.0,
+            "B": 0.9375,
+            "BCE": 0.0,
+            "BDA": 0.0,
+            "C": 0.84375,
+            "D": 0.71875,
+            "E": 1.0,
+            "general": 1.0
+          },
+          "accepted_model": {
+            "A": 1.0,
+            "B": 0.84375,
+            "C": 0.90625,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_general_mc": 0.71875
+        }
+      ],
+      "source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/replay/C/checkpoint",
+      "accepted_skills": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "consolidation": {
+      "stages": [
+        {
+          "stage": "A",
+          "decision": {
+            "accepted": true,
+            "reasons": [],
+            "old_source": "/home/aggerio/.cache/huggingface/hub/models--Qwen--Qwen3-0.6B/snapshots/c1899de289a04d12100db370d81485cdf75e47ca",
+            "proposal_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/consolidation/A/student/checkpoint",
+            "new_skill_accuracy": 1.0,
+            "best_prior_scores": {},
+            "general_mc": 0.71875
+          },
+          "proposed": {
+            "A": 1.0,
+            "B": 0.0,
+            "C": 0.0,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 0.0
+          },
+          "accepted_model": {
+            "A": 1.0,
+            "B": 0.0,
+            "C": 0.0,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 0.0
+          },
+          "accepted_general_mc": 0.71875
+        },
+        {
+          "stage": "B",
+          "decision": {
+            "accepted": true,
+            "reasons": [],
+            "old_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/consolidation/A/student/checkpoint",
+            "proposal_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/consolidation/B/student/checkpoint",
+            "new_skill_accuracy": 0.84375,
+            "best_prior_scores": {
+              "A": 1.0
+            },
+            "general_mc": 0.71875
+          },
+          "proposed": {
+            "A": 1.0,
+            "B": 0.84375,
+            "C": 0.0625,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_model": {
+            "A": 1.0,
+            "B": 0.84375,
+            "C": 0.0625,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_general_mc": 0.71875
+        },
+        {
+          "stage": "C",
+          "decision": {
+            "accepted": true,
+            "reasons": [],
+            "old_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/consolidation/B/student/checkpoint",
+            "proposal_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/consolidation/C/student/checkpoint",
+            "new_skill_accuracy": 0.8125,
+            "best_prior_scores": {
+              "A": 1.0,
+              "B": 0.84375
+            },
+            "general_mc": 0.75
+          },
+          "proposed": {
+            "A": 1.0,
+            "B": 0.8125,
+            "C": 0.8125,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_model": {
+            "A": 1.0,
+            "B": 0.8125,
+            "C": 0.8125,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_general_mc": 0.75
+        },
+        {
+          "stage": "D",
+          "decision": {
+            "accepted": false,
+            "reasons": [
+              "B exceeds retention tolerance"
+            ],
+            "old_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/consolidation/C/student/checkpoint",
+            "proposal_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/consolidation/D/student/checkpoint",
+            "new_skill_accuracy": 0.9375,
+            "best_prior_scores": {
+              "A": 1.0,
+              "B": 0.84375,
+              "C": 0.8125
+            },
+            "general_mc": 0.78125
+          },
+          "proposed": {
+            "A": 1.0,
+            "B": 0.71875,
+            "BDA": 0.0,
+            "C": 0.8125,
+            "D": 0.9375,
+            "E": 0.15625,
+            "general": 1.0
+          },
+          "accepted_model": {
+            "A": 1.0,
+            "B": 0.8125,
+            "C": 0.8125,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_general_mc": 0.75
+        },
+        {
+          "stage": "E",
+          "decision": {
+            "accepted": true,
+            "reasons": [],
+            "old_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/consolidation/C/student/checkpoint",
+            "proposal_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/consolidation/E/student/checkpoint",
+            "new_skill_accuracy": 1.0,
+            "best_prior_scores": {
+              "A": 1.0,
+              "B": 0.84375,
+              "C": 0.8125
+            },
+            "general_mc": 0.78125
+          },
+          "proposed": {
+            "A": 1.0,
+            "B": 0.875,
+            "BCE": 0.0,
+            "BDA": 0.0,
+            "C": 0.8125,
+            "D": 0.15625,
+            "E": 1.0,
+            "general": 1.0
+          },
+          "accepted_model": {
+            "A": 1.0,
+            "B": 0.875,
+            "BCE": 0.0,
+            "BDA": 0.0,
+            "C": 0.8125,
+            "D": 0.15625,
+            "E": 1.0,
+            "general": 1.0
+          },
+          "accepted_general_mc": 0.78125
+        }
+      ],
+      "source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/consolidation/E/student/checkpoint",
+      "accepted_skills": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ]
+    },
+    "composition": {
+      "stages": [
+        {
+          "stage": "A",
+          "decision": {
+            "accepted": true,
+            "reasons": [],
+            "old_source": "/home/aggerio/.cache/huggingface/hub/models--Qwen--Qwen3-0.6B/snapshots/c1899de289a04d12100db370d81485cdf75e47ca",
+            "proposal_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/composition/A/student/checkpoint",
+            "new_skill_accuracy": 1.0,
+            "best_prior_scores": {},
+            "general_mc": 0.71875
+          },
+          "proposed": {
+            "A": 1.0,
+            "B": 0.0,
+            "C": 0.0,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_model": {
+            "A": 1.0,
+            "B": 0.0,
+            "C": 0.0,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_general_mc": 0.71875
+        },
+        {
+          "stage": "B",
+          "decision": {
+            "accepted": true,
+            "reasons": [],
+            "old_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/composition/A/student/checkpoint",
+            "proposal_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/composition/B/student/checkpoint",
+            "new_skill_accuracy": 0.78125,
+            "best_prior_scores": {
+              "A": 1.0
+            },
+            "general_mc": 0.71875
+          },
+          "proposed": {
+            "A": 1.0,
+            "B": 0.78125,
+            "C": 0.21875,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_model": {
+            "A": 1.0,
+            "B": 0.78125,
+            "C": 0.21875,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_general_mc": 0.71875
+        },
+        {
+          "stage": "C",
+          "decision": {
+            "accepted": true,
+            "reasons": [],
+            "old_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/composition/B/student/checkpoint",
+            "proposal_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/composition/C/student/checkpoint",
+            "new_skill_accuracy": 0.9375,
+            "best_prior_scores": {
+              "A": 1.0,
+              "B": 0.78125
+            },
+            "general_mc": 0.75
+          },
+          "proposed": {
+            "A": 1.0,
+            "B": 0.84375,
+            "C": 0.9375,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_model": {
+            "A": 1.0,
+            "B": 0.84375,
+            "C": 0.9375,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_general_mc": 0.75
+        },
+        {
+          "stage": "D",
+          "decision": {
+            "accepted": false,
+            "reasons": [
+              "C exceeds retention tolerance"
+            ],
+            "old_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/composition/C/student/checkpoint",
+            "proposal_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/composition/D/student/checkpoint",
+            "new_skill_accuracy": 0.75,
+            "best_prior_scores": {
+              "A": 1.0,
+              "B": 0.84375,
+              "C": 0.9375
+            },
+            "general_mc": 0.75
+          },
+          "proposed": {
+            "A": 1.0,
+            "B": 0.84375,
+            "BDA": 0.0,
+            "C": 0.625,
+            "D": 0.75,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_model": {
+            "A": 1.0,
+            "B": 0.84375,
+            "C": 0.9375,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_general_mc": 0.75
+        },
+        {
+          "stage": "E",
+          "decision": {
+            "accepted": false,
+            "reasons": [
+              "C exceeds retention tolerance"
+            ],
+            "old_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/composition/C/student/checkpoint",
+            "proposal_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/composition/E/student/checkpoint",
+            "new_skill_accuracy": 1.0,
+            "best_prior_scores": {
+              "A": 1.0,
+              "B": 0.84375,
+              "C": 0.9375
+            },
+            "general_mc": 0.71875
+          },
+          "proposed": {
+            "A": 1.0,
+            "B": 0.90625,
+            "BCE": 0.8125,
+            "BDA": 0.0,
+            "C": 0.84375,
+            "D": 0.0625,
+            "E": 1.0,
+            "general": 1.0
+          },
+          "accepted_model": {
+            "A": 1.0,
+            "B": 0.84375,
+            "C": 0.9375,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          },
+          "accepted_general_mc": 0.75
+        }
+      ],
+      "source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/composition/C/student/checkpoint",
+      "accepted_skills": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  }
+}

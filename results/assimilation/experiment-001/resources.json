@@ -1,0 +1,41 @@
+{
+  "replay": {
+    "training_seconds": 1326.896324365,
+    "cache_seconds": 0,
+    "proposal_evaluation_seconds": 184.25657569600025,
+    "final_evaluation_seconds": 314.64421173400024,
+    "teacher_diagnostic_evaluation_seconds": 0,
+    "plasticity_training_seconds": 107.31791498700022,
+    "plasticity_training_tokens": 98176,
+    "peak_reserved_bytes_where_recorded": null,
+    "deployed_parameters": 596049920
+  },
+  "consolidation": {
+    "training_seconds": 1324.4758594159985,
+    "cache_seconds": 83.26682982900002,
+    "proposal_evaluation_seconds": 191.08823231199858,
+    "final_evaluation_seconds": 169.08212628399997,
+    "teacher_diagnostic_evaluation_seconds": 46.543896692999624,
+    "plasticity_training_seconds": 103.6913011709994,
+    "plasticity_training_tokens": 98176,
+    "peak_reserved_bytes_where_recorded": 5731516416,
+    "deployed_parameters": 596049920
+  },
+  "composition": {
+    "training_seconds": 1147.4522343340013,
+    "cache_seconds": 81.28876763099925,
+    "proposal_evaluation_seconds": 164.6533402539999,
+    "final_evaluation_seconds": 257.1502596720002,
+    "teacher_diagnostic_evaluation_seconds": 45.748084466000364,
+    "plasticity_training_seconds": 97.28528740600086,
+    "plasticity_training_tokens": 98176,
+    "peak_reserved_bytes_where_recorded": 5731516416,
+    "deployed_parameters": 596049920
+  },
+  "storage": {
+    "largest_observed_acquired_teacher_checkpoint_bytes": 1203564233,
+    "largest_observed_archive_merged_checkpoint_bytes": 6017821165,
+    "sampling_seconds": 15,
+    "note": "Archive aggregate includes retained checkpoints from other methods; excludes base snapshot, adapters, caches and other artifacts. Not a learner persistent-state size."
+  }
+}

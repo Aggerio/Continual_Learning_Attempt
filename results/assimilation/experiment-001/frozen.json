@@ -1,0 +1,72 @@
+{
+  "frozen_at": "2026-10-30T19:13:01.037847+00:00",
+  "model": "Qwen/Qwen3-0.6B",
+  "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+  "base": "/home/aggerio/.cache/huggingface/hub/models--Qwen--Qwen3-0.6B/snapshots/c1899de289a04d12100db370d81485cdf75e47ca",
+  "sources": {
+    "continual/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "continual/assimilation.py": "952c488f67ea1bb99f3635d427b317ebd4b308f817cc9e04a695b574a4a1bb2c",
+    "continual/tasks.py": "7b58c16eb7cdddd96ed94bfc32f888180e38c8aac0b641f3d4a516173036276a",
+    "continual/worker.py": "b4c821019aa012bc7f027b3c538c559174d5be2eca464e86cafc39feee566a7a",
+    "scripts/assimilation_run.py": "d26d2dd381fac8bdbb0a3d0a704590b03ae90b2fccd0b5aa548b21ab5a57d4f5",
+    "configs/assimilation.json": "477bba974bf6f6747a9f34428737e8903e8e49303ae0329146906fbadb76daaf"
+  },
+  "archive_sha256": {
+    "archive/dev/A.json": "e575f0b8bcf1a6530b532021e20c520425123e6392d4fd54f3776abcf96dbb06",
+    "archive/dev/B.json": "012ff6adb92990699b3216578201fd6b91b2074bc4bfed723626f9589410fbfc",
+    "archive/dev/BA.json": "b3d8ea6dbb75ed1a7bb05db770a1f629688d9716759d5a0433993d0841f4a806",
+    "archive/dev/BC.json": "f7e3e1ed70cd37d6064be740d9d30fea3149148217804249157afb4542d46313",
+    "archive/dev/BCE.json": "67320abcda87fdd9eec976429ebd88a0b6734dd16f384a31a4bc181004fecc8b",
+    "archive/dev/BD.json": "20d495f5167ae4d34573f3de724210f82fe1d75cac718160d8548cbb618920ff",
+    "archive/dev/BDA.json": "82f810cf590c58f94ed5556b32e19cd97eda80ced2759e03fc76925279ebfd8d",
+    "archive/dev/BE.json": "311dd0195cbfc52f7a48278ea0e0090f90667b4d99a3e2bfaeda6934556e44f6",
+    "archive/dev/C.json": "e55a37f739da948ae2a3dd71c76ab292d861e36df4f1c44baa3b503162c9a0cd",
+    "archive/dev/D.json": "2843f9d941c8b362e70b27694ad8b5aa0c6d97f3b4712d9b90e48a8204d3afcf",
+    "archive/dev/E.json": "3e92c22c94791be6caec556773b0ddde347cca293d192f6c7654ab55cf20cf34",
+    "archive/test/A.json": "340a60f3e9e30c02ac894ea62e120d8bbbe580e81c3153ff8fbc4295fd6a0b4a",
+    "archive/test/B.json": "f1544284305fc998b2eeff524161eff96ca62d70b204f298be8f6690a1a4c967",
+    "archive/test/BA.json": "03777c9b4d070a93f605bd356197c0a9cc8d38f0194dd12d22f72a1c52cbb2bd",
+    "archive/test/BC.json": "ac10178183d4fcfbd7208d1f682d544b79c4343d334b4dd7622ce6eaee12eac0",
+    "archive/test/BCE.json": "c5769ae00666741aa6256bff2048e3747ee040ad000fe7f10d60ee6fb545a47d",
+    "archive/test/BD.json": "d168d8b42be3c2e6129067a5a07c70154ca8a35c43fb6d7d2822802b16aeb65f",
+    "archive/test/BDA.json": "754d940454d77d427acd222d60c3be8ba0ef9bea21114785a981a33cd8a417ee",
+    "archive/test/BE.json": "f58e131f7f394ebc16baa94f32c81a1f0a88f7c4d5475387a5b917cde6fa044f",
+    "archive/test/C.json": "44324fca0e5770ec356d207ca12de2b0ff5a57c75207ded5f667108af6f48b51",
+    "archive/test/D.json": "faef2703cf80efd8a1483f970857d0139c9695a612b1ab7a657497df4785b30c",
+    "archive/test/E.json": "8fc7665d870c0bddc5d8461cbabb43ffddd09c39036a608cfe5e03f47aae9d03",
+    "archive/train/A.json": "ce6a748bb71638d14adf983f742b1d9b550ba0fd31c2b26a21ad639b03f8da69",
+    "archive/train/B.json": "cc735bbf71e0b832608d3f06f9e78a96fc08da03eeace46c730b85c640eb2ad7",
+    "archive/train/BA.json": "70fe32708e3154780614cf33c7c02bfca1462186486f4475e5426f790dcf60ec",
+    "archive/train/BC.json": "d04bdd4a9092b14cdd89bd63d854def9beb9f6086ba0dd263cddfb5acb52b753",
+    "archive/train/BD.json": "f02c11044df466f5ab6909b637a1e18252dcbc732a20c89a2b3d0618e310c0f7",
+    "archive/train/BE.json": "77d35e6522c8ccfd76da127191495f00d9d2861db86b1f7bd84b144c9dff0e58",
+    "archive/train/C.json": "0e7a06314186efb36f86cc9346d092fbbea462a501b28ce6945242c4e7948386",
+    "archive/train/D.json": "74a7bea5e25d8ee49bb06786c02f3756c20b1f79570e368e65a030033c3baff5",
+    "archive/train/E.json": "69e95f0815e3c4118898935ca4b23bc377c10a9881c273e019d8d505169e9694"
+  },
+  "calibration": {
+    "B": {
+      "first_32_accuracy": 0.875,
+      "all_64_accuracy": 0.875,
+      "passes": true
+    },
+    "C": {
+      "first_32_accuracy": 0.75,
+      "all_64_accuracy": 0.8125,
+      "passes": true
+    }
+  },
+  "initial_memory_sha256": "e6521e388f1445b71b2dd7274fbee7184c508493a091f7ab58c94cff28362464",
+  "initial_memory": {
+    "examples": 16,
+    "tokens": 748,
+    "bytes": 2795
+  },
+  "python": "3.14.0 (main, Feb 16 2026, 13:55:02) [GCC 15.2.1 20260103]",
+  "packages": {
+    "torch": "2.10.0",
+    "transformers": "5.5.4",
+    "peft": "0.21.2"
+  },
+  "scope": "Exploratory single-seed comparison; dev acceptance gates, final untouched tests."
+}

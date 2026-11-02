@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "checks": [
+    "frozen sources and corpus hashes",
+    "no future or held-out learner examples",
+    "bounded replay and temporary caches",
+    "separate student initialized from old model",
+    "unchanged compact parameter count",
+    "matching training-token ceilings",
+    "acceptance gates recalculated",
+    "independent proposal evaluation processes",
+    "final predictions rescored",
+    "temporary distribution caches removed"
+  ],
+  "methods": {
+    "replay": {
+      "training_tokens": 982619,
+      "max_replay_tokens": 15889,
+      "max_combined_cache_bytes": 0,
+      "accepted_updates": 3
+    },
+    "consolidation": {
+      "training_tokens": 982375,
+      "max_replay_tokens": 15889,
+      "max_combined_cache_bytes": 3829934,
+      "accepted_updates": 4
+    },
+    "composition": {
+      "training_tokens": 982241,
+      "max_replay_tokens": 15889,
+      "max_combined_cache_bytes": 3829934,
+      "accepted_updates": 3
+    }
+  }
+}
