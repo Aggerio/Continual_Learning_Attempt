@@ -1,0 +1,23 @@
+{
+  "seed": 42,
+  "evaluation_seed": 20261103,
+  "reference_run": "results/capacity_memory/screen-001",
+  "reference_stage": "capacity/rank-16/E",
+  "before_checkpoint": "results/capacity_memory/screen-001/capacity/rank-16/D/student/checkpoint",
+  "discovery_skill": "C",
+  "discovery_examples": 64,
+  "validation_sort_examples": 128,
+  "validation_other_examples": 64,
+  "trace_batch_size": 4,
+  "activation_cache_bytes": 536870912,
+  "components": [
+    "mlp",
+    "self_attn",
+    "residual"
+  ],
+  "top_weight_modules": 3,
+  "random_control_seed": 1701,
+  "free_generation_sort_examples": 32,
+  "free_generation_join_examples": 16,
+  "notes": "Single fixed reproduction; prompt-aligned causal diagnosis and targeted weight-reversion validation. Read-only tracing is not a complete feature map, guaranteed knowledge erasure, or an added-layer assimilation result."
+}

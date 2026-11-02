@@ -1,0 +1,43 @@
+{
+  "time": "2026-10-31T21:45:17.553339+00:00",
+  "sources": {
+    "continual/worker.py": "b4c821019aa012bc7f027b3c538c559174d5be2eca464e86cafc39feee566a7a",
+    "continual/tasks.py": "7b58c16eb7cdddd96ed94bfc32f888180e38c8aac0b641f3d4a516173036276a",
+    "continual/assimilation.py": "952c488f67ea1bb99f3635d427b317ebd4b308f817cc9e04a695b574a4a1bb2c",
+    "scripts/causal_assimilation_run.py": "25a9343363205968be78f79313537ee77948ea22d18e0ccdabaeba5f51838dfe",
+    "configs/causal_assimilation.json": "cd492820f1154ff7910f66d0926600fedc3ca857f95b8c85754da76884f396d0"
+  },
+  "inputs": {
+    "config.json": "a3d0326d22f36dc010c0c52e52df0687ec5a9ac99cb57fdc738470c9fc9998b8",
+    "student-config.json": "ae9cd362acf5b7953d8ee09d654ca2a665111a6656313aac136c33c298386735",
+    "teacher-config.json": "20cc129f5aa376689ecff070e284d6d938f1de04724e043f3a446f3c45a78060",
+    "train-data.json": "74f9bb55bbdbe9e8fa86600592367ac5d71baa98e1e08067054e5888cbd65ba1",
+    "acquire-data.json": "e70439ebd9b2e4f5a7c659bbcafc895ecd1578dd738ce54388b3098b3cc5f957",
+    "data/discovery.json": "1af54706d39d16ceb8c2cff8c32961310bd250f013dbb71bfb84e1611299e766",
+    "data/validation-A.json": "2ac928d733cd19e9d0b1e3a53a482d18070a6deced3640566cddb17408ddb9fe",
+    "data/validation-B.json": "91aaa8b5d5a47a7af5c87890c5b49ec9007563c98182250b9390e1950d90c6cc",
+    "data/validation-C.json": "17d15441f35e3ea91b4cc2f6954b4740095a33996f8f0ccfa38a25d7f2329aa6",
+    "data/validation-D.json": "fce0d8fed79a9468fbbfa01372f43b9bec1ee0dffaad0c48f044be15fe08087e",
+    "data/validation-E.json": "35ab04ee488382e14043e2f8e8256418e103dca83e2a1da29ee3c4ba10125cda",
+    "data/validation.json": "3dd01761e7bb840e9317ffff1c89caf4b317431808c172a66ec02a718cc9c64e",
+    "data/activation-generation.json": "ef26b74648f94521ec817754bb2c3de8481e6af961cf2525776c9b3e132935f5"
+  },
+  "before_weights": {
+    "/home/aggerio/code_playground/continual_learning/results/capacity_memory/screen-001/capacity/rank-16/D/student/checkpoint/model.safetensors": "945164c73882b3450414893f47ca3af58ebfebc5d96b60139d0b7484634c22fb"
+  },
+  "reference_decision": {
+    "accepted": false,
+    "reasons": [
+      "C exceeds retention tolerance"
+    ],
+    "old_source": "/home/aggerio/code_playground/continual_learning/results/capacity_memory/screen-001/capacity/rank-16/D/student/checkpoint",
+    "proposal_source": "/home/aggerio/code_playground/continual_learning/results/capacity_memory/screen-001/capacity/rank-16/E/student/checkpoint",
+    "best_prior_scores": {
+      "A": 1.0,
+      "B": 0.84375,
+      "C": 0.890625,
+      "D": 0.90625
+    },
+    "new_skill_accuracy": 1.0
+  }
+}

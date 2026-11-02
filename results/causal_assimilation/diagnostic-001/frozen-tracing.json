@@ -1,0 +1,10 @@
+{
+  "time": "2026-10-31T21:51:00.275583+00:00",
+  "sources": {
+    "continual/causal_diagnosis.py": "98b1540113f01ffa37eb2550204e7f5a159c01bf0e3ea191f02681934bf47e75"
+  },
+  "after_weights": {
+    "/home/aggerio/code_playground/continual_learning/results/causal_assimilation/diagnostic-001/after/checkpoint/model.safetensors": "b475aa84040327e010956b09074d7a5e63fb5e109a6f8aaeb44611d0c3ed130a"
+  },
+  "selection": "all discovery C examples only; validation never selects sites"
+}

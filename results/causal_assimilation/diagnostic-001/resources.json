@@ -1,0 +1,9 @@
+{
+  "trace_wall_seconds": 815.1417956640071,
+  "peak_cuda_allocated_bytes": 2812763648,
+  "before_parameters": 596049920,
+  "after_parameters": 596049920,
+  "peak_activation_cache_bytes": 273874944,
+  "cuda_device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "total_wall_seconds": 1146.896250376005
+}

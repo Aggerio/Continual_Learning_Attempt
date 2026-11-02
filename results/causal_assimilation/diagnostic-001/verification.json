@@ -1,0 +1,16 @@
+{
+  "unit_tests": {
+    "count": 16,
+    "status": "passed",
+    "log": "tests.log",
+    "sha256": "8fe1cc6ebdf33557b7e97fa59b14ee422e1e28cd4c3206ab6bb1aedb9fbe331f"
+  },
+  "cuda_smoke": {
+    "max_discovery_sequence_tokens": 199,
+    "projected_combined_cache_bytes": 273874944,
+    "self_patch_logp_error": 0.0,
+    "self_patch_generation_matches": true,
+    "manual_generation_matches_hf": true,
+    "cuda_peak_bytes": 1528832000
+  }
+}

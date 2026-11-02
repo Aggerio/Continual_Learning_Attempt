@@ -1,0 +1,15 @@
+{
+  "reproduction_frozen_hashes": true,
+  "tracing_frozen_hashes": true,
+  "no_train_discovery_validation_overlap": true,
+  "validation_disjoint_from_historical_archives": true,
+  "rescored_reports": 16,
+  "discovery_selection_and_matched_controls": true,
+  "before_after_tokenizer_alignment": true,
+  "all_variant_tensors_match_declared_reversions": true,
+  "deployed_parameters": 596049920,
+  "self_patch_and_output_copy_controls": true,
+  "final_residual_logp_copy_max_error": 7.683411240577698e-09,
+  "no_teacher_cache_retained": true,
+  "status": "passed"
+}
