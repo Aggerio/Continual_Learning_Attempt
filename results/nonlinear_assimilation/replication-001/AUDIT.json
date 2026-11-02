@@ -1,0 +1,38 @@
+{
+  "seed_count": 3,
+  "all_teachers_acquired": true,
+  "runs": {
+    "43": {
+      "completed": true,
+      "teacher_acquired": true,
+      "compact_parameter_counts": {
+        "direct": 596049920,
+        "output": 596049920,
+        "guided": 596049920,
+        "random": 596049920
+      }
+    },
+    "44": {
+      "completed": true,
+      "teacher_acquired": true,
+      "compact_parameter_counts": {
+        "direct": 596049920,
+        "output": 596049920,
+        "guided": 596049920,
+        "random": 596049920
+      }
+    },
+    "45": {
+      "completed": true,
+      "teacher_acquired": true,
+      "compact_parameter_counts": {
+        "direct": 596049920,
+        "output": 596049920,
+        "guided": 596049920,
+        "random": 596049920
+      }
+    }
+  },
+  "all_runs_completed": true,
+  "all_compact_counts_match": true
+}

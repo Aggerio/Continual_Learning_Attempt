@@ -1,0 +1,274 @@
+{
+  "manifest": {
+    "seeds": [
+      43,
+      44,
+      45
+    ],
+    "control": "direct supervised compact update; no expanded teacher",
+    "arms": [
+      "direct",
+      "output",
+      "guided",
+      "random"
+    ],
+    "shared_training_examples": "fixed original boundary cohort",
+    "seed_scope": "initialization and frozen example-order schedule; evaluation cohort seed varies",
+    "evaluation_cohort": "16 per atomic skill and 8 per composition; exploratory screen smaller than original.",
+    "note": "Three training seeds estimate optimization variability, not data/task-order variability."
+  },
+  "runs": [
+    {
+      "seed": 43,
+      "teacher_acquired": true,
+      "direct": {
+        "A": 1.0,
+        "B": 0.75,
+        "C": 0.875,
+        "D": 0.875,
+        "E": 1.0,
+        "compositions": {
+          "BA": 0.875,
+          "BC": 1.0,
+          "BD": 0.125,
+          "BE": 0.25,
+          "BDA": 0.0,
+          "BCE": 0.0
+        }
+      },
+      "output": {
+        "A": 1.0,
+        "B": 0.75,
+        "C": 0.8125,
+        "D": 0.875,
+        "E": 1.0,
+        "compositions": {
+          "BA": 0.875,
+          "BC": 0.875,
+          "BD": 0.0,
+          "BE": 0.375,
+          "BDA": 0.0,
+          "BCE": 0.0
+        }
+      },
+      "guided": {
+        "A": 1.0,
+        "B": 0.75,
+        "C": 0.875,
+        "D": 0.875,
+        "E": 1.0,
+        "compositions": {
+          "BA": 1.0,
+          "BC": 0.875,
+          "BD": 0.0,
+          "BE": 0.375,
+          "BDA": 0.0,
+          "BCE": 0.0
+        }
+      },
+      "random": {
+        "A": 1.0,
+        "B": 0.75,
+        "C": 0.875,
+        "D": 0.875,
+        "E": 1.0,
+        "compositions": {
+          "BA": 1.0,
+          "BC": 0.875,
+          "BD": 0.0,
+          "BE": 0.375,
+          "BDA": 0.0,
+          "BCE": 0.0
+        }
+      }
+    },
+    {
+      "seed": 44,
+      "teacher_acquired": true,
+      "direct": {
+        "A": 1.0,
+        "B": 0.9375,
+        "C": 0.9375,
+        "D": 0.75,
+        "E": 1.0,
+        "compositions": {
+          "BA": 1.0,
+          "BC": 0.75,
+          "BD": 0.25,
+          "BE": 0.125,
+          "BDA": 0.0,
+          "BCE": 0.0
+        }
+      },
+      "output": {
+        "A": 1.0,
+        "B": 0.9375,
+        "C": 0.875,
+        "D": 0.875,
+        "E": 1.0,
+        "compositions": {
+          "BA": 1.0,
+          "BC": 0.875,
+          "BD": 0.125,
+          "BE": 0.25,
+          "BDA": 0.0,
+          "BCE": 0.0
+        }
+      },
+      "guided": {
+        "A": 1.0,
+        "B": 0.9375,
+        "C": 0.875,
+        "D": 0.875,
+        "E": 1.0,
+        "compositions": {
+          "BA": 1.0,
+          "BC": 0.75,
+          "BD": 0.25,
+          "BE": 0.0,
+          "BDA": 0.0,
+          "BCE": 0.0
+        }
+      },
+      "random": {
+        "A": 1.0,
+        "B": 0.9375,
+        "C": 0.875,
+        "D": 0.875,
+        "E": 1.0,
+        "compositions": {
+          "BA": 1.0,
+          "BC": 0.875,
+          "BD": 0.25,
+          "BE": 0.125,
+          "BDA": 0.0,
+          "BCE": 0.0
+        }
+      }
+    },
+    {
+      "seed": 45,
+      "teacher_acquired": true,
+      "direct": {
+        "A": 1.0,
+        "B": 0.8125,
+        "C": 0.6875,
+        "D": 0.875,
+        "E": 1.0,
+        "compositions": {
+          "BA": 0.875,
+          "BC": 0.75,
+          "BD": 0.375,
+          "BE": 0.0,
+          "BDA": 0.0,
+          "BCE": 0.0
+        }
+      },
+      "output": {
+        "A": 1.0,
+        "B": 0.8125,
+        "C": 0.8125,
+        "D": 0.875,
+        "E": 1.0,
+        "compositions": {
+          "BA": 0.75,
+          "BC": 0.75,
+          "BD": 0.5,
+          "BE": 0.0,
+          "BDA": 0.0,
+          "BCE": 0.0
+        }
+      },
+      "guided": {
+        "A": 1.0,
+        "B": 0.75,
+        "C": 0.75,
+        "D": 0.875,
+        "E": 1.0,
+        "compositions": {
+          "BA": 0.875,
+          "BC": 0.75,
+          "BD": 0.25,
+          "BE": 0.0,
+          "BDA": 0.0,
+          "BCE": 0.0
+        }
+      },
+      "random": {
+        "A": 1.0,
+        "B": 0.8125,
+        "C": 0.8125,
+        "D": 0.875,
+        "E": 1.0,
+        "compositions": {
+          "BA": 0.875,
+          "BC": 0.75,
+          "BD": 0.25,
+          "BE": 0.0,
+          "BDA": 0.0,
+          "BCE": 0.0
+        }
+      }
+    }
+  ],
+  "direct_mean_test_accuracy": {
+    "A": 1.0,
+    "B": 0.8333333333333334,
+    "C": 0.8333333333333334,
+    "D": 0.8333333333333334,
+    "E": 1.0
+  },
+  "direct_mean_composition_accuracy": {
+    "BA": 0.9166666666666666,
+    "BC": 0.8333333333333334,
+    "BD": 0.25,
+    "BE": 0.125,
+    "BDA": 0.0,
+    "BCE": 0.0
+  },
+  "output_mean_test_accuracy": {
+    "A": 1.0,
+    "B": 0.8333333333333334,
+    "C": 0.8333333333333334,
+    "D": 0.875,
+    "E": 1.0
+  },
+  "output_mean_composition_accuracy": {
+    "BA": 0.875,
+    "BC": 0.8333333333333334,
+    "BD": 0.20833333333333334,
+    "BE": 0.20833333333333334,
+    "BDA": 0.0,
+    "BCE": 0.0
+  },
+  "guided_mean_test_accuracy": {
+    "A": 1.0,
+    "B": 0.8125,
+    "C": 0.8333333333333334,
+    "D": 0.875,
+    "E": 1.0
+  },
+  "guided_mean_composition_accuracy": {
+    "BA": 0.9583333333333334,
+    "BC": 0.7916666666666666,
+    "BD": 0.16666666666666666,
+    "BE": 0.125,
+    "BDA": 0.0,
+    "BCE": 0.0
+  },
+  "random_mean_test_accuracy": {
+    "A": 1.0,
+    "B": 0.8333333333333334,
+    "C": 0.8541666666666666,
+    "D": 0.875,
+    "E": 1.0
+  },
+  "random_mean_composition_accuracy": {
+    "BA": 0.9583333333333334,
+    "BC": 0.8333333333333334,
+    "BD": 0.16666666666666666,
+    "BE": 0.16666666666666666,
+    "BDA": 0.0,
+    "BCE": 0.0
+  }
+}

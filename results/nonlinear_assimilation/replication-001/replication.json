@@ -1,0 +1,18 @@
+{
+  "seeds": [
+    43,
+    44,
+    45
+  ],
+  "control": "direct supervised compact update; no expanded teacher",
+  "arms": [
+    "direct",
+    "output",
+    "guided",
+    "random"
+  ],
+  "shared_training_examples": "fixed original boundary cohort",
+  "seed_scope": "initialization and frozen example-order schedule; evaluation cohort seed varies",
+  "evaluation_cohort": "16 per atomic skill and 8 per composition; exploratory screen smaller than original.",
+  "note": "Three training seeds estimate optimization variability, not data/task-order variability."
+}
