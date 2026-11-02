@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "probe_seed": 20261108,
+  "evaluation_seed": 20261109,
+  "reference_run": "results/circuit_growth/screen-001/growth",
+  "before_checkpoint": "results/capacity_memory/screen-001/capacity/rank-16/D/student/checkpoint",
+  "after_checkpoint": "results/circuit_growth/screen-001/growth/students/related/checkpoint",
+  "selected_modules": 3,
+  "random_seed": 1701,
+  "discovery_counts": {"D": 32, "A": 16},
+  "validation_counts": {"D": 32, "A": 16, "E": 16},
+  "generation_patch_counts": {"D": 16, "E": 8},
+  "trace_batch_size": 2,
+  "generation_batch_size": 4,
+  "activation_cache_bytes": 268435456,
+  "bootstrap_samples": 2000,
+  "dev_atomic_examples": 32,
+  "dev_composition_examples": 32,
+  "test_atomic_examples": 64,
+  "test_composition_examples": 32,
+  "notes": "One predeclared module-level protection screen, no hyperparameter/seed search. Rank by discovery numeric-token rollback effect on grouping minus numeric-copy control. Freeze selected LoRA modules during fresh compression; compare same-kind random freezes and unconstrained compression. Report validation failure without reranking. Preserve original-size deployment and bounded replay."
+}
