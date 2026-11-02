@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "reports_rescored": 32,
+  "checks": [
+    "frozen input/source/checkpoint hashes",
+    "fresh evaluation fingerprints disjoint from prior corpus and training",
+    "same capacity starting checkpoint and training budgets",
+    "teacher rank differs; student rank and deployed parameter count fixed",
+    "gates recalculated including rejected proposals",
+    "bounded chronological memory recomputed",
+    "retrieval traces reconstructed without query answers",
+    "all predictions rescored",
+    "temporary teachers and caches removed"
+  ],
+  "capacity": {
+    "16": {
+      "training_tokens": 392921,
+      "max_cache_bytes": 3829934,
+      "accepted_updates": 1
+    },
+    "64": {
+      "training_tokens": 392921,
+      "max_cache_bytes": 3829934,
+      "accepted_updates": 1
+    }
+  }
+}

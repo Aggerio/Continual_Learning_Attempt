@@ -1,0 +1,120 @@
+{
+  "scope": "Targeted two-boundary capacity comparison from a common A-C checkpoint; independent five-stage frozen-base external-memory stream and hybrid retrieval ablations. No claim of a fresh five-stage capacity pass.",
+  "capacity_updates": {
+    "16": [
+      {
+        "skill": "D",
+        "accepted": true,
+        "reasons": []
+      },
+      {
+        "skill": "E",
+        "accepted": false,
+        "reasons": [
+          "C exceeds retention tolerance"
+        ]
+      }
+    ],
+    "64": [
+      {
+        "skill": "D",
+        "accepted": false,
+        "reasons": [
+          "C exceeds retention tolerance"
+        ]
+      },
+      {
+        "skill": "E",
+        "accepted": true,
+        "reasons": []
+      }
+    ]
+  },
+  "final_paired_results": {
+    "base": {
+      "off": {
+        "atomic_mean": 0.0,
+        "per_task": {
+          "A": 0.0,
+          "B": 0.0,
+          "BCE": 0.0,
+          "BDA": 0.0,
+          "C": 0.0,
+          "D": 0.0,
+          "E": 0.0,
+          "general": 0.0
+        }
+      },
+      "on": {
+        "atomic_mean": 0.528125,
+        "per_task": {
+          "A": 0.984375,
+          "B": 0.296875,
+          "BCE": 0.0,
+          "BDA": 0.0,
+          "C": 0.234375,
+          "D": 0.25,
+          "E": 0.875,
+          "general": 0.0
+        }
+      }
+    },
+    "rank-16": {
+      "off": {
+        "atomic_mean": 0.74375,
+        "per_task": {
+          "A": 1.0,
+          "B": 0.890625,
+          "BCE": 0.0,
+          "BDA": 0.0,
+          "C": 0.921875,
+          "D": 0.84375,
+          "E": 0.0625,
+          "general": 1.0
+        }
+      },
+      "on": {
+        "atomic_mean": 0.753125,
+        "per_task": {
+          "A": 1.0,
+          "B": 0.796875,
+          "BCE": 0.0,
+          "BDA": 0.0,
+          "C": 0.828125,
+          "D": 0.734375,
+          "E": 0.40625,
+          "general": 1.0
+        }
+      }
+    },
+    "rank-64": {
+      "off": {
+        "atomic_mean": 0.775,
+        "per_task": {
+          "A": 1.0,
+          "B": 0.890625,
+          "BCE": 0.15625,
+          "BDA": 0.0,
+          "C": 0.9375,
+          "D": 0.046875,
+          "E": 1.0,
+          "general": 1.0
+        }
+      },
+      "on": {
+        "atomic_mean": 0.796875,
+        "per_task": {
+          "A": 0.96875,
+          "B": 0.84375,
+          "BCE": 0.296875,
+          "BDA": 0.0,
+          "C": 0.890625,
+          "D": 0.3125,
+          "E": 0.96875,
+          "general": 1.0
+        }
+      }
+    }
+  },
+  "audit": "passed"
+}

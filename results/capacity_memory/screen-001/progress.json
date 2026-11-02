@@ -1,0 +1,541 @@
+{
+  "status": "completed",
+  "capacity": {
+    "16": {
+      "stages": [
+        {
+          "stage": "D",
+          "decision": {
+            "accepted": true,
+            "reasons": [],
+            "old_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/composition/C/student/checkpoint",
+            "proposal_source": "/home/aggerio/code_playground/continual_learning/results/capacity_memory/screen-001/capacity/rank-16/D/student/checkpoint",
+            "best_prior_scores": {
+              "A": 1.0,
+              "B": 0.765625,
+              "C": 0.890625
+            },
+            "new_skill_accuracy": 0.90625
+          },
+          "proposed": {
+            "A": 0.984375,
+            "B": 0.84375,
+            "BDA": 0.0,
+            "C": 0.859375,
+            "D": 0.90625,
+            "E": 0.015625,
+            "general": 1.0
+          },
+          "accepted_model": {
+            "A": 0.984375,
+            "B": 0.84375,
+            "BDA": 0.0,
+            "C": 0.859375,
+            "D": 0.90625,
+            "E": 0.015625,
+            "general": 1.0
+          }
+        },
+        {
+          "stage": "E",
+          "decision": {
+            "accepted": false,
+            "reasons": [
+              "C exceeds retention tolerance"
+            ],
+            "old_source": "/home/aggerio/code_playground/continual_learning/results/capacity_memory/screen-001/capacity/rank-16/D/student/checkpoint",
+            "proposal_source": "/home/aggerio/code_playground/continual_learning/results/capacity_memory/screen-001/capacity/rank-16/E/student/checkpoint",
+            "best_prior_scores": {
+              "A": 1.0,
+              "B": 0.84375,
+              "C": 0.890625,
+              "D": 0.90625
+            },
+            "new_skill_accuracy": 1.0
+          },
+          "proposed": {
+            "A": 1.0,
+            "B": 0.890625,
+            "BCE": 0.09375,
+            "BDA": 0.0,
+            "C": 0.828125,
+            "D": 0.90625,
+            "E": 1.0,
+            "general": 1.0
+          },
+          "accepted_model": {
+            "A": 0.984375,
+            "B": 0.84375,
+            "BDA": 0.0,
+            "C": 0.859375,
+            "D": 0.90625,
+            "E": 0.015625,
+            "general": 1.0
+          }
+        }
+      ],
+      "source": "/home/aggerio/code_playground/continual_learning/results/capacity_memory/screen-001/capacity/rank-16/D/student/checkpoint",
+      "memory": "/home/aggerio/code_playground/continual_learning/results/capacity_memory/screen-001/capacity/rank-16/E/memory.json"
+    },
+    "64": {
+      "stages": [
+        {
+          "stage": "D",
+          "decision": {
+            "accepted": false,
+            "reasons": [
+              "C exceeds retention tolerance"
+            ],
+            "old_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/composition/C/student/checkpoint",
+            "proposal_source": "/home/aggerio/code_playground/continual_learning/results/capacity_memory/screen-001/capacity/rank-64/D/student/checkpoint",
+            "best_prior_scores": {
+              "A": 1.0,
+              "B": 0.765625,
+              "C": 0.890625
+            },
+            "new_skill_accuracy": 0.8125
+          },
+          "proposed": {
+            "A": 0.984375,
+            "B": 0.859375,
+            "BDA": 0.0,
+            "C": 0.78125,
+            "D": 0.8125,
+            "E": 0.015625,
+            "general": 1.0
+          },
+          "accepted_model": {
+            "A": 1.0,
+            "B": 0.765625,
+            "BCE": 0.0,
+            "BDA": 0.0,
+            "C": 0.890625,
+            "D": 0.0,
+            "E": 0.0,
+            "general": 1.0
+          }
+        },
+        {
+          "stage": "E",
+          "decision": {
+            "accepted": true,
+            "reasons": [],
+            "old_source": "/home/aggerio/code_playground/continual_learning/results/assimilation/experiment-001/streams/composition/C/student/checkpoint",
+            "proposal_source": "/home/aggerio/code_playground/continual_learning/results/capacity_memory/screen-001/capacity/rank-64/E/student/checkpoint",
+            "best_prior_scores": {
+              "A": 1.0,
+              "B": 0.765625,
+              "C": 0.890625
+            },
+            "new_skill_accuracy": 1.0
+          },
+          "proposed": {
+            "A": 1.0,
+            "B": 0.859375,
+            "BCE": 0.125,
+            "BDA": 0.0,
+            "C": 0.90625,
+            "D": 0.0625,
+            "E": 1.0,
+            "general": 1.0
+          },
+          "accepted_model": {
+            "A": 1.0,
+            "B": 0.859375,
+            "BCE": 0.125,
+            "BDA": 0.0,
+            "C": 0.90625,
+            "D": 0.0625,
+            "E": 1.0,
+            "general": 1.0
+          }
+        }
+      ],
+      "source": "/home/aggerio/code_playground/continual_learning/results/capacity_memory/screen-001/capacity/rank-64/E/student/checkpoint",
+      "memory": "/home/aggerio/code_playground/continual_learning/results/capacity_memory/screen-001/capacity/rank-64/E/memory.json"
+    }
+  },
+  "external_stream": [
+    {
+      "stage": "A",
+      "memory": {
+        "examples": 119,
+        "tokens": 15780,
+        "bytes": 39367
+      },
+      "scores": {
+        "A": {
+          "n": 16,
+          "strict_correct": 1.0,
+          "semantic_correct": 1.0,
+          "valid_json": 1.0,
+          "strict_correct_wilson_95": [
+            0.8063923194655637,
+            1.0
+          ]
+        },
+        "B": {
+          "n": 16,
+          "strict_correct": 0.0,
+          "semantic_correct": 0.0,
+          "valid_json": 0.0,
+          "strict_correct_wilson_95": [
+            0.0,
+            0.1936076805344365
+          ]
+        },
+        "C": {
+          "n": 16,
+          "strict_correct": 0.0,
+          "semantic_correct": 0.0625,
+          "valid_json": 0.0,
+          "strict_correct_wilson_95": [
+            0.0,
+            0.1936076805344365
+          ]
+        },
+        "D": {
+          "n": 16,
+          "strict_correct": 0.0,
+          "semantic_correct": 0.0,
+          "valid_json": 0.0,
+          "strict_correct_wilson_95": [
+            0.0,
+            0.1936076805344365
+          ]
+        },
+        "E": {
+          "n": 16,
+          "strict_correct": 0.0,
+          "semantic_correct": 0.0,
+          "valid_json": 0.0,
+          "strict_correct_wilson_95": [
+            0.0,
+            0.1936076805344365
+          ]
+        },
+        "general": {
+          "n": 1,
+          "strict_correct": 0.0,
+          "semantic_correct": 0.0,
+          "valid_json": 0.0,
+          "strict_correct_wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        }
+      }
+    },
+    {
+      "stage": "B",
+      "memory": {
+        "examples": 118,
+        "tokens": 15841,
+        "bytes": 39214
+      },
+      "scores": {
+        "A": {
+          "n": 16,
+          "strict_correct": 1.0,
+          "semantic_correct": 1.0,
+          "valid_json": 1.0,
+          "strict_correct_wilson_95": [
+            0.8063923194655637,
+            1.0
+          ]
+        },
+        "B": {
+          "n": 16,
+          "strict_correct": 0.125,
+          "semantic_correct": 0.125,
+          "valid_json": 0.9375,
+          "strict_correct_wilson_95": [
+            0.03497748774324047,
+            0.36022827265758695
+          ]
+        },
+        "C": {
+          "n": 16,
+          "strict_correct": 0.0,
+          "semantic_correct": 0.0625,
+          "valid_json": 0.0,
+          "strict_correct_wilson_95": [
+            0.0,
+            0.1936076805344365
+          ]
+        },
+        "D": {
+          "n": 16,
+          "strict_correct": 0.0,
+          "semantic_correct": 0.0,
+          "valid_json": 0.0,
+          "strict_correct_wilson_95": [
+            0.0,
+            0.1936076805344365
+          ]
+        },
+        "E": {
+          "n": 16,
+          "strict_correct": 0.0,
+          "semantic_correct": 0.0,
+          "valid_json": 0.0,
+          "strict_correct_wilson_95": [
+            0.0,
+            0.1936076805344365
+          ]
+        },
+        "general": {
+          "n": 1,
+          "strict_correct": 0.0,
+          "semantic_correct": 0.0,
+          "valid_json": 0.0,
+          "strict_correct_wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        }
+      }
+    },
+    {
+      "stage": "C",
+      "memory": {
+        "examples": 116,
+        "tokens": 15887,
+        "bytes": 39125
+      },
+      "scores": {
+        "A": {
+          "n": 16,
+          "strict_correct": 1.0,
+          "semantic_correct": 1.0,
+          "valid_json": 1.0,
+          "strict_correct_wilson_95": [
+            0.8063923194655637,
+            1.0
+          ]
+        },
+        "B": {
+          "n": 16,
+          "strict_correct": 0.1875,
+          "semantic_correct": 0.1875,
+          "valid_json": 1.0,
+          "strict_correct_wilson_95": [
+            0.06591599071428142,
+            0.4300888096197414
+          ]
+        },
+        "C": {
+          "n": 16,
+          "strict_correct": 0.0625,
+          "semantic_correct": 0.0625,
+          "valid_json": 1.0,
+          "strict_correct_wilson_95": [
+            0.01111934476464252,
+            0.28328737570298945
+          ]
+        },
+        "D": {
+          "n": 16,
+          "strict_correct": 0.0,
+          "semantic_correct": 0.0,
+          "valid_json": 0.0,
+          "strict_correct_wilson_95": [
+            0.0,
+            0.1936076805344365
+          ]
+        },
+        "E": {
+          "n": 16,
+          "strict_correct": 0.0,
+          "semantic_correct": 0.0,
+          "valid_json": 0.0,
+          "strict_correct_wilson_95": [
+            0.0,
+            0.1936076805344365
+          ]
+        },
+        "general": {
+          "n": 1,
+          "strict_correct": 0.0,
+          "semantic_correct": 0.0,
+          "valid_json": 0.0,
+          "strict_correct_wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        }
+      }
+    },
+    {
+      "stage": "D",
+      "memory": {
+        "examples": 115,
+        "tokens": 15762,
+        "bytes": 38985
+      },
+      "scores": {
+        "A": {
+          "n": 16,
+          "strict_correct": 1.0,
+          "semantic_correct": 1.0,
+          "valid_json": 1.0,
+          "strict_correct_wilson_95": [
+            0.8063923194655637,
+            1.0
+          ]
+        },
+        "B": {
+          "n": 16,
+          "strict_correct": 0.125,
+          "semantic_correct": 0.125,
+          "valid_json": 1.0,
+          "strict_correct_wilson_95": [
+            0.03497748774324047,
+            0.36022827265758695
+          ]
+        },
+        "BDA": {
+          "n": 16,
+          "strict_correct": 0.0,
+          "semantic_correct": 0.0,
+          "valid_json": 1.0,
+          "strict_correct_wilson_95": [
+            0.0,
+            0.1936076805344365
+          ]
+        },
+        "C": {
+          "n": 16,
+          "strict_correct": 0.125,
+          "semantic_correct": 0.125,
+          "valid_json": 1.0,
+          "strict_correct_wilson_95": [
+            0.03497748774324047,
+            0.36022827265758695
+          ]
+        },
+        "D": {
+          "n": 16,
+          "strict_correct": 0.25,
+          "semantic_correct": 0.25,
+          "valid_json": 1.0,
+          "strict_correct_wilson_95": [
+            0.10182067491213048,
+            0.49498316535508774
+          ]
+        },
+        "E": {
+          "n": 16,
+          "strict_correct": 0.0,
+          "semantic_correct": 0.0,
+          "valid_json": 0.0,
+          "strict_correct_wilson_95": [
+            0.0,
+            0.1936076805344365
+          ]
+        },
+        "general": {
+          "n": 1,
+          "strict_correct": 0.0,
+          "semantic_correct": 0.0,
+          "valid_json": 0.0,
+          "strict_correct_wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        }
+      }
+    },
+    {
+      "stage": "E",
+      "memory": {
+        "examples": 111,
+        "tokens": 15889,
+        "bytes": 40060
+      },
+      "scores": {
+        "A": {
+          "n": 16,
+          "strict_correct": 1.0,
+          "semantic_correct": 1.0,
+          "valid_json": 1.0,
+          "strict_correct_wilson_95": [
+            0.8063923194655637,
+            1.0
+          ]
+        },
+        "B": {
+          "n": 16,
+          "strict_correct": 0.25,
+          "semantic_correct": 0.25,
+          "valid_json": 1.0,
+          "strict_correct_wilson_95": [
+            0.10182067491213048,
+            0.49498316535508774
+          ]
+        },
+        "BCE": {
+          "n": 16,
+          "strict_correct": 0.0,
+          "semantic_correct": 0.0,
+          "valid_json": 1.0,
+          "strict_correct_wilson_95": [
+            0.0,
+            0.1936076805344365
+          ]
+        },
+        "BDA": {
+          "n": 16,
+          "strict_correct": 0.0,
+          "semantic_correct": 0.0,
+          "valid_json": 1.0,
+          "strict_correct_wilson_95": [
+            0.0,
+            0.1936076805344365
+          ]
+        },
+        "C": {
+          "n": 16,
+          "strict_correct": 0.125,
+          "semantic_correct": 0.125,
+          "valid_json": 0.875,
+          "strict_correct_wilson_95": [
+            0.03497748774324047,
+            0.36022827265758695
+          ]
+        },
+        "D": {
+          "n": 16,
+          "strict_correct": 0.3125,
+          "semantic_correct": 0.3125,
+          "valid_json": 1.0,
+          "strict_correct_wilson_95": [
+            0.14164643854782039,
+            0.5559564416525933
+          ]
+        },
+        "E": {
+          "n": 16,
+          "strict_correct": 0.6875,
+          "semantic_correct": 0.6875,
+          "valid_json": 1.0,
+          "strict_correct_wilson_95": [
+            0.44404355834740666,
+            0.8583535614521796
+          ]
+        },
+        "general": {
+          "n": 1,
+          "strict_correct": 0.0,
+          "semantic_correct": 0.0,
+          "valid_json": 0.0,
+          "strict_correct_wilson_95": [
+            0.0,
+            0.7934506856227626
+          ]
+        }
+      }
+    }
+  ],
+  "base_general_mc": 0.71875
+}

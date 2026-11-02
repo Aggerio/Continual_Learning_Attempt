@@ -1,0 +1,25 @@
+{
+  "seed": 42,
+  "evaluation_seed": 20261101,
+  "start_run": "results/assimilation/experiment-001",
+  "start_checkpoint": "results/assimilation/experiment-001/streams/composition/C/student/checkpoint",
+  "incoming_order": [
+    "D",
+    "E"
+  ],
+  "teacher_ranks": [
+    16,
+    64
+  ],
+  "student_rank": 16,
+  "development_examples": 64,
+  "test_examples": 64,
+  "stream_probe_examples": 16,
+  "retrieval_examples": 4,
+  "retrieval_prompt_tokens": 1536,
+  "retrieval_context_tokens": 2048,
+  "memory_examples": 128,
+  "memory_tokens": 16000,
+  "negative_control_examples": 32,
+  "notes": "Targeted two-boundary capacity comparison from a common A-C checkpoint; independent five-stage frozen-base external-memory stream and hybrid retrieval ablations. No claim of a fresh five-stage capacity pass."
+}
