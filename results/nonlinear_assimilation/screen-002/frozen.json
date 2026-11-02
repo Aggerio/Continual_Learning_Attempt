@@ -1,0 +1,26 @@
+{
+  "time": "2026-11-01T17:31:15.692204+00:00",
+  "sources": {
+    "continual/nonlinear_layers.py": "6ef6166692147a58047b36d52e0196f89d473c193bb1be3450146dc0f64307e0",
+    "continual/worker.py": "b4c821019aa012bc7f027b3c538c559174d5be2eca464e86cafc39feee566a7a",
+    "continual/assimilation.py": "952c488f67ea1bb99f3635d427b317ebd4b308f817cc9e04a695b574a4a1bb2c",
+    "continual/tasks.py": "7b58c16eb7cdddd96ed94bfc32f888180e38c8aac0b641f3d4a516173036276a",
+    "scripts/nonlinear_assimilation_run.py": "2d8d21e20e1f0e46100cb278c9de27313d888a4e2b841365eb4221599e8c912c",
+    "configs/nonlinear_assimilation.json": "518df06123daa1718597f5df1a9cf94b0cd64e73bdfd02d65bce9ae7cd6a922b",
+    "tests/test_nonlinear_layers.py": "61ab7b8c0aa309d137e76bd756e2733fb7b73e08e1d0bfb8cac6659317d8fa1c"
+  },
+  "inputs": {
+    "config.json": "9fd1a0b65a312a1d8281321783141c0aad9fda4bf85b9a23004857f9363446e4",
+    "train-data.json": "3508a35a2327d2641943d1d15f7da563414b05894ce9bed0f29dbbe2e81038da",
+    "schedule.json": "e2170bc91c8e5b79dbac22fdcd09992b271f05b5ef49152e904e28e8bdd73eb5",
+    "data/ablation.json": "446b78d3f5ae9102958c67020e5b805eb838777d4f658c3a655638d8740b501c",
+    "data/dev.json": "0d4d5b5a9dc86388092c09f958f81c39cb70d22633490d9a1c89018f23b2cec6",
+    "data/test.json": "d9062700c72d56a9bc07d210bb9ce3130a12d02b7a00d362619eb38d7f477f1b"
+  },
+  "backbone": {
+    "results/capacity_memory/screen-001/capacity/rank-16/D/student/checkpoint/model.safetensors": "945164c73882b3450414893f47ca3af58ebfebc5d96b60139d0b7484634c22fb",
+    "results/assimilation/experiment-001/streams/composition/C/student/checkpoint/model.safetensors": "d7ac1189b4cfb7266f79f707b755e1d2f9a48a73c2cb08a30f9abf3599ccaf55"
+  },
+  "selection_evidence_sha256": "247d3228805d1a6e9a21c00c74cb45031e546ce50f82e31499532c4357dcf827",
+  "notes": "Same schedule in teacher and all compression arms; test never selects sites or coefficients."
+}

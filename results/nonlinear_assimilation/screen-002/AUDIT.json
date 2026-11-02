@@ -1,0 +1,25 @@
+{
+  "frozen_sources": true,
+  "frozen_inputs": true,
+  "frozen_backbone": true,
+  "fresh_atomic_and_composition_cohorts": true,
+  "evaluation_token_limits": {
+    "max_prompt_tokens": 205,
+    "max_gold_answer_tokens": 56,
+    "prompt_cap": 512,
+    "generation_cap": 192
+  },
+  "bounded_replay": {
+    "examples": 115,
+    "tokens": 15762
+  },
+  "only_added_layers_trained_backbone_unchanged": true,
+  "peak_combined_target_cache_bytes": 161059352,
+  "temporary_target_caches_removed": true,
+  "rescored_reports": 14,
+  "fresh_evaluation_processes_and_exact_cohort_hashes": true,
+  "bypassing_both_exactly_restores_original_responses": true,
+  "compact_exports_and_matched_compression_schedules": true,
+  "development_only_acceptance_recomputed": true,
+  "status": "passed"
+}

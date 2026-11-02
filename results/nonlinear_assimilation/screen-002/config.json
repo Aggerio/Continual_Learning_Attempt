@@ -1,0 +1,47 @@
+{
+  "seed": 42,
+  "evaluation_seed": 20261104,
+  "before_checkpoint": "results/capacity_memory/screen-001/capacity/rank-16/D/student/checkpoint",
+  "historical_checkpoint": "results/assimilation/experiment-001/streams/composition/C/student/checkpoint",
+  "reference_data": "results/causal_assimilation/diagnostic-001/train-data.json",
+  "insertion_layers": [
+    14,
+    21
+  ],
+  "bottleneck": 256,
+  "guided_layers": [
+    2,
+    5,
+    17
+  ],
+  "random_layers": [
+    9,
+    21,
+    23
+  ],
+  "guided_source": "results/causal_assimilation/diagnostic-001/selection.json",
+  "training_tokens": 98304,
+  "teacher_learning_rate": 0.001,
+  "learning_rate": 0.0002,
+  "lora_rank": 16,
+  "batch_size": 2,
+  "gradient_accumulation": 4,
+  "eval_batch_size": 8,
+  "max_sequence_tokens": 512,
+  "max_new_tokens": 192,
+  "replay_examples": 128,
+  "replay_tokens": 16000,
+  "distillation_temperature": 2.0,
+  "teacher_top_k": 32,
+  "teacher_cache_bytes": 536870912,
+  "old_teacher_weight": 0.5,
+  "new_teacher_weight": 0.5,
+  "hidden_weight": 0.1,
+  "minimum_acquisition": 0.75,
+  "retention_tolerance": 0.05,
+  "general_tolerance": 0.05,
+  "dev_examples": 64,
+  "test_examples": 64,
+  "composition_examples": 32,
+  "notes": "One fixed D-to-E boundary, no seed or hyperparameter search. Teacher only trains actual added nonlinear layers; compression arms share data, schedule and output targets. Teacher failure stops compression. This is a component screen, not demonstrated continual learning."
+}

@@ -1,0 +1,11 @@
+{
+  "generator": "scripts/nonlinear_assimilation_report.py",
+  "generator_sha256": "7f7ae5f08aea9ae1e690c9ab5d1be3a1e54cf024096ef39d4b0bee3c4799c55e",
+  "artifact_sha256": {
+    "AUDIT.json": "00765a0a3b23dc1ac8075e4be47acc9d6eb20e86b10baa85ddd38c5154356171",
+    "REPORT.md": "70b40bb36a119e44f8d86f241186dd3dda7ed82519a425a472d19ffa1ab73b26",
+    "summary.json": "9cb533bee7432e070049cd6ed8d51077b801fb6c5c8b0d58e4d6eddf66160056",
+    "results.png": "d575cdd3aac450f560a1e0ed258fc3ea55545646721ade99581c2c2f146857bb",
+    "results.svg": "252c769ea9fcd9acbfaf0b5a459860c41abb2133154ab448f85a90f738bf0fd9"
+  }
+}

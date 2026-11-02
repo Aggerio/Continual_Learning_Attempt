@@ -1,0 +1,76 @@
+{
+  "unit_tests": {
+    "count": 19,
+    "status": "passed",
+    "sha256": "c3cfd7b6a5a2ccf12adf75a0d8ad1ba3e430ff63ca285b5b0912ab3c531e9555"
+  },
+  "cuda_smoke": {
+    "teacher": {
+      "arm": "teacher",
+      "base_parameters": 596049920,
+      "trainable_parameters": 1050624,
+      "training_tokens": 1944,
+      "optimizer_updates": 2,
+      "training_seconds": 2.241784762998577,
+      "peak_cuda_allocated_bytes": 2383665152,
+      "peak_cuda_reserved_bytes": 3999268864,
+      "replay_examples": 4,
+      "replay_tokens": 591,
+      "teacher_cache_bytes": 913651,
+      "hint_layers": [],
+      "hidden_weight": 0.0,
+      "sampled_roles": {
+        "old": 6,
+        "new": 4
+      },
+      "loss_last_8": 0.25587613771349427,
+      "kl_last_8": 0.00015726932761026547,
+      "hint_last_8": 0.0,
+      "schedule_sha256": "d3ef801c5d230e620e87f6c0a137a495fdd019b756d9a1b50eaf6ea51ef8c2ac",
+      "torch_version": "2.10.0+cu128",
+      "cuda_version": "12.8",
+      "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+      "backbone_before_sha256": "f5cfd5d4d149205ba95a597b112be65b191611305976430969f8ee59781d853e",
+      "backbone_after_sha256": "f5cfd5d4d149205ba95a597b112be65b191611305976430969f8ee59781d853e",
+      "expanded_parameters": 597100544
+    },
+    "guided_student": {
+      "arm": "guided",
+      "base_parameters": 596049920,
+      "trainable_parameters": 10092544,
+      "training_tokens": 1944,
+      "optimizer_updates": 2,
+      "training_seconds": 3.074125828999968,
+      "peak_cuda_allocated_bytes": 2495031296,
+      "peak_cuda_reserved_bytes": 4179623936,
+      "replay_examples": 4,
+      "replay_tokens": 591,
+      "teacher_cache_bytes": 3158246,
+      "hint_layers": [
+        2,
+        5,
+        17
+      ],
+      "hidden_weight": 0.1,
+      "sampled_roles": {
+        "old": 6,
+        "new": 4
+      },
+      "loss_last_8": 0.24822693357855313,
+      "kl_last_8": 0.0038854059515870177,
+      "hint_last_8": 6.242108811420622e-05,
+      "schedule_sha256": "d3ef801c5d230e620e87f6c0a137a495fdd019b756d9a1b50eaf6ea51ef8c2ac",
+      "torch_version": "2.10.0+cu128",
+      "cuda_version": "12.8",
+      "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+      "deployed_parameters": 596049920
+    }
+  },
+  "failed_launch": {
+    "path": "results/nonlinear_assimilation/screen-001",
+    "inputs_identical": true,
+    "scientific_sources_identical": true,
+    "teacher_training_not_started": true,
+    "fix": "Only status logging converts pathlib.Path to string."
+  }
+}
